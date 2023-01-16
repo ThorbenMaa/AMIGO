@@ -1,0 +1,925 @@
+distance ranges for [M] [I] [L] [V] [A] [T] methyl groups: [[3.0, 3.2, 3.4000000000000004, 3.6, 3.8000000000000003, 4.0, 4.2, 4.4, 4.6000000000000005, 4.800000000000001, 5.0, 5.2, 5.4, 5.6000000000000005, 5.800000000000001, 6.0, 6.2, 6.4, 6.6000000000000005, 6.800000000000001, 7.0, 7.2, 7.4, 7.6000000000000005, 7.800000000000001, 8.0, 8.200000000000001, 8.4, 8.6, 8.8, 9.0], [3.0, 3.2, 3.4000000000000004, 3.6, 3.8000000000000003, 4.0, 4.2, 4.4, 4.6000000000000005, 4.800000000000001, 5.0, 5.2, 5.4, 5.6000000000000005, 5.800000000000001, 6.0, 6.2, 6.4, 6.6000000000000005, 6.800000000000001, 7.0, 7.2, 7.4, 7.6000000000000005, 7.800000000000001, 8.0, 8.200000000000001, 8.4, 8.6, 8.8, 9.0], [3.0, 3.2, 3.4000000000000004, 3.6, 3.8000000000000003, 4.0, 4.2, 4.4, 4.6000000000000005, 4.800000000000001, 5.0, 5.2, 5.4, 5.6000000000000005, 5.800000000000001, 6.0, 6.2, 6.4, 6.6000000000000005, 6.800000000000001, 7.0, 7.2, 7.4, 7.6000000000000005, 7.800000000000001, 8.0, 8.200000000000001, 8.4, 8.6, 8.8, 9.0], [3.0, 3.2, 3.4000000000000004, 3.6, 3.8000000000000003, 4.0, 4.2, 4.4, 4.6000000000000005, 4.800000000000001, 5.0, 5.2, 5.4, 5.6000000000000005, 5.800000000000001, 6.0, 6.2, 6.4, 6.6000000000000005, 6.800000000000001, 7.0, 7.2, 7.4, 7.6000000000000005, 7.800000000000001, 8.0, 8.200000000000001, 8.4, 8.6, 8.8, 9.0], [3.0, 3.2, 3.4000000000000004, 3.6, 3.8000000000000003, 4.0, 4.2, 4.4, 4.6000000000000005, 4.800000000000001, 5.0, 5.2, 5.4, 5.6000000000000005, 5.800000000000001, 6.0, 6.2, 6.4, 6.6000000000000005, 6.800000000000001, 7.0, 7.2, 7.4, 7.6000000000000005, 7.800000000000001, 8.0, 8.200000000000001, 8.4, 8.6, 8.8, 9.0], [3.0, 3.2, 3.4000000000000004, 3.6, 3.8000000000000003, 4.0, 4.2, 4.4, 4.6000000000000005, 4.800000000000001, 5.0, 5.2, 5.4, 5.6000000000000005, 5.800000000000001, 6.0, 6.2, 6.4, 6.6000000000000005, 6.800000000000001, 7.0, 7.2, 7.4, 7.6000000000000005, 7.800000000000001, 8.0, 8.200000000000001, 8.4, 8.6, 8.8, 9.0]]
+
+weighting factors [w_NOE, w_1, w_2, w_3, w_4]            : [1.0, 100.0, 100.0, 100.0, 0.0]
+
+
+cluster       :      0
+
+ NMR methyl group                 :     ILE 369  with NOEs to NMR methyl groups ILE 240 / LEU 64 / VAL 231 / LEU 61 / LEU 243 / ALA 60 / 
+ was assigned to pdb methyl group :     ILE 369 with pdb methyl group neighbors ALA 60 / LEU 61 / LEU 64 / VAL 231 / ILE 240 / LEU 243 / VAL 370 /  using a cut-off distance of 7.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, -0.05, -0.013, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, -0.0481, -0.01331, 0.0]
+
+
+ NMR methyl group                 :     ILE 240  with NOEs to NMR methyl groups ILE 369 / MET 235 / LEU 243 / LEU 64 / 
+ was assigned to pdb methyl group :     ILE 240 with pdb methyl group neighbors MET 235 / LEU 243 / ILE 369 /  using a cut-off distance of 7.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[0.146, -0.036, -0.016, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[0.14385, -0.03482, -0.01043, 0.0]
+
+
+ NMR methyl group                 :     MET 235  with NOEs to NMR methyl groups ILE 369 / ILE 240 / LEU 232 / LEU 243 / ILE 312 / VAL 231 / 
+ was assigned to pdb methyl group :     MET 235 with pdb methyl group neighbors VAL 231 / LEU 232 / ILE 240 / LEU 243 / ILE 312 /  using a cut-off distance of 8.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[0.073, -0.023, -0.012, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[0.091, -0.02607, -0.00799, 0.0]
+
+
+ NMR methyl group                 :     ILE 312  with NOEs to NMR methyl groups MET 215 / MET 356 / VAL 217 / LEU 317 / 
+ was assigned to pdb methyl group :     ILE 312 with pdb methyl group neighbors ILE 194 / MET 215 / VAL 217 / LEU 310 / LEU 314 / LEU 317 / MET 356 /  using a cut-off distance of 6.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.009, 999.0, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.01057, 999.0, 0.0]
+
+
+ NMR methyl group                 :     MET 215  with NOEs to NMR methyl groups ILE 194 / ILE 312 / MET 128 / LEU 314 / VAL 217 / VAL 77 / LEU 207 / LEU 198 / LEU 317 / LEU 79 / LEU 160 / 
+ was assigned to pdb methyl group :     MET 215 with pdb methyl group neighbors VAL 77 / LEU 79 / MET 128 / LEU 160 / ILE 194 / LEU 198 / LEU 207 / VAL 217 / ILE 312 / LEU 314 / LEU 317 /  using a cut-off distance of 7.2 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.032, 0.013, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.03295, 0.01122, 0.0]
+
+
+ NMR methyl group                 :     ILE 194  with NOEs to NMR methyl groups ILE 312 / MET 215 / MET 356 / MET 130 / LEU 81 / VAL 217 / LEU 79 / LEU 160 / 
+ was assigned to pdb methyl group :     ILE 194 with pdb methyl group neighbors LEU 79 / LEU 81 / MET 130 / LEU 160 / LEU 198 / MET 215 / VAL 217 / ILE 312 / MET 356 /  using a cut-off distance of 6.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, 0.023, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, 0.02596, 0.0]
+
+
+ NMR methyl group                 :     MET 128  with NOEs to NMR methyl groups VAL 158 / VAL 77 / LEU 198 / LEU 204 / LEU 160 / MET 215 / 
+ was assigned to pdb methyl group :     MET 128 with pdb methyl group neighbors VAL 77 / LEU 79 / VAL 158 / LEU 160 / ILE 194 / LEU 198 / LEU 207 / MET 215 /  using a cut-off distance of 7.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, 0.02, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, 0.01547, 0.0]
+
+
+ NMR methyl group                 :     MET 356  with NOEs to NMR methyl groups ILE 194 / ILE 312 / VAL 217 / LEU 81 / LEU 310 / LEU 79 / 
+ was assigned to pdb methyl group :     MET 356 with pdb methyl group neighbors LEU 79 / LEU 81 / ILE 194 / VAL 217 / LEU 310 / ILE 312 /  using a cut-off distance of 7.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215 => ILE 194 // ILE 194
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, -0.02, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, -0.04032, 0.0]
+
+
+ NMR methyl group                 :     MET 130  with NOEs to NMR methyl groups ILE 194 / LEU 81 / LEU 79 / MET 356 / LEU 160 / 
+ was assigned to pdb methyl group :     MET 130 with pdb methyl group neighbors LEU 79 / LEU 81 / LEU 160 / ILE 194 / ALA 197 / MET 356 /  using a cut-off distance of 8.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215 => ILE 194 // ILE 194
+
+
+ NMR methyl group                 :     ALA 60  with NOEs to NMR methyl groups ILE 369 / VAL 370 / 
+ was assigned to pdb methyl group :     ALA 60 with pdb methyl group neighbors ILE 369 / VAL 370 /  using a cut-off distance of 6.2 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, -0.043, -0.012, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, -0.04889, -0.01289, 0.0]
+
+
+ NMR methyl group                 :     LEU 232  with NOEs to NMR methyl groups ILE 227 / MET 235 / THR 76 / VAL 71 / LEU 73 / VAL 78 / LEU 243 / 
+ was assigned to pdb methyl group :     LEU 232 with pdb methyl group neighbors VAL 72 / THR 76 / ILE 227 / VAL 231 / ALA 233 / MET 235 / LEU 243 /  using a cut-off distance of 8.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[0.034, -0.014, 0.004, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[0.02919, -0.01618, -0.00209, 0.0]
+
+
+ NMR methyl group                 :     ILE 227  with NOEs to NMR methyl groups THR 76 / VAL 78 / LEU 117 / LEU 232 / LEU 73 / LEU 125 / 
+ was assigned to pdb methyl group :     ILE 227 with pdb methyl group neighbors LEU 73 / THR 76 / VAL 78 / LEU 117 / LEU 125 / LEU 232 /  using a cut-off distance of 7.6000000000000005 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => LEU 232 // LEU 232
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.02, -0.004, 999.0, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.04233, -0.00555, 999.0, 0.0]
+
+
+ NMR methyl group                 :     THR 76  with NOEs to NMR methyl groups ILE 227 / LEU 232 / LEU 107 / LEU 73 / VAL 78 / 
+ was assigned to pdb methyl group :     THR 76 with pdb methyl group neighbors LEU 73 / VAL 77 / VAL 78 / LEU 125 / MET 215 / ILE 227 / LEU 232 /  using a cut-off distance of 8.6 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => LEU 232 // LEU 232 => ILE 227 // ILE 227
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.046, -0.002, 0.003, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.04051, -0.00375, 0.00343, 0.0]
+
+
+ NMR methyl group                 :     VAL 78  with NOEs to NMR methyl groups ILE 227 / THR 76 / LEU 125 / VAL 114 / 
+ was assigned to pdb methyl group :     VAL 78 with pdb methyl group neighbors THR 76 / VAL 114 / LEU 125 / ILE 227 /  using a cut-off distance of 6.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => LEU 232 // LEU 232 => ILE 227 // ILE 227 => THR 76 // THR 76
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.01, 0.008, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.00557, 0.01037, 0.0]
+
+
+ NMR methyl group                 :     VAL 114  with NOEs to NMR methyl groups ILE 227 / THR 110 / VAL 78 / LEU 150 / LEU 125 / 
+ was assigned to pdb methyl group :     VAL 114 with pdb methyl group neighbors VAL 78 / THR 110 / ALA 111 / LEU 125 / LEU 150 /  using a cut-off distance of 6.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => LEU 232 // LEU 232 => ILE 227 // ILE 227 => THR 76 // THR 76 => VAL 78 // VAL 78
+
+
+ NMR methyl group                 :     THR 110  with NOEs to NMR methyl groups VAL 114 / LEU 129 / 
+ was assigned to pdb methyl group :     THR 110 with pdb methyl group neighbors LEU 107 / VAL 114 / LEU 129 /  using a cut-off distance of 5.2 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => LEU 232 // LEU 232 => ILE 227 // ILE 227 => THR 76 // THR 76 => VAL 78 // VAL 78 => VAL 114 // VAL 114
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, 0.006, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, 0.03118, 0.0]
+
+
+ NMR methyl group                 :     LEU 160  with NOEs to NMR methyl groups ILE 194 / ALA 197 / MET 128 / MET 215 / MET 130 / LEU 198 / 
+ was assigned to pdb methyl group :     LEU 160 with pdb methyl group neighbors LEU 79 / MET 128 / MET 130 / ILE 194 / ALA 197 / LEU 198 / MET 215 /  using a cut-off distance of 6.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215 => ILE 194 // ILE 194 => MET 130 // MET 130
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, 0.031, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, 0.02543, 0.0]
+
+
+ NMR methyl group                 :     ALA 197  with NOEs to NMR methyl groups LEU 160 / 
+ was assigned to pdb methyl group :     ALA 197 with pdb methyl group neighbors LEU 160 /  using a cut-off distance of 4.2 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215 => ILE 194 // ILE 194 => MET 130 // MET 130 => LEU 160 // LEU 160
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, 0.019, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, 0.02122, 0.0]
+
+
+ NMR methyl group                 :     VAL 77  with NOEs to NMR methyl groups MET 215 / LEU 314 / MET 128 / LEU 207 / 
+ was assigned to pdb methyl group :     VAL 77 with pdb methyl group neighbors THR 76 / MET 128 / LEU 207 / MET 215 / LEU 314 /  using a cut-off distance of 7.2 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215 => MET 128 // MET 128
+
+
+ NMR methyl group                 :     VAL 231  with NOEs to NMR methyl groups ILE 369 / LEU 61 / LEU 243 / 
+ was assigned to pdb methyl group :     VAL 231 with pdb methyl group neighbors LEU 61 / LEU 243 / ILE 369 /  using a cut-off distance of 5.2 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, -0.045, -0.014, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, -0.04267, -0.00961, 0.0]
+
+
+ NMR methyl group                 :     VAL 158  with NOEs to NMR methyl groups VAL 153 / LEU 150 / 
+ was assigned to pdb methyl group :     VAL 158 with pdb methyl group neighbors LEU 150 / VAL 153 /  using a cut-off distance of 4.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215 => MET 128 // MET 128
+
+
+ NMR methyl group                 :     VAL 370  with NOEs to NMR methyl groups VAL 246 / LEU 259 / 
+ was assigned to pdb methyl group :     VAL 370 with pdb methyl group neighbors LEU 58 / ALA 60 / VAL 246 /  using a cut-off distance of 5.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, -0.076, -0.019, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, -0.07813, -0.02445, 0.0]
+
+
+ NMR methyl group                 :     VAL 246  with NOEs to NMR methyl groups THR 307 / VAL 370 / ALA 368 / LEU 259 / ILE 360 / 
+ was assigned to pdb methyl group :     VAL 246 with pdb methyl group neighbors LEU 58 / MET 244 / LEU 259 / THR 307 / ILE 360 / ALA 368 / VAL 370 / VAL 371 /  using a cut-off distance of 8.200000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, -0.03, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, -0.03929, 0.0]
+
+
+ NMR methyl group                 :     ALA 368  with NOEs to NMR methyl groups ILE 360 / MET 244 / VAL 264 / LEU 58 / LEU 259 / VAL 370 / 
+ was assigned to pdb methyl group :     ALA 368 with pdb methyl group neighbors LEU 58 / MET 244 / VAL 246 / LEU 259 / LEU 280 / ILE 360 / VAL 370 /  using a cut-off distance of 7.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, -0.033, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, -0.03398, 0.0]
+
+
+ NMR methyl group                 :     MET 244  with NOEs to NMR methyl groups ILE 360 / ALA 368 / LEU 310 / LEU 10145 / LEU 259 / 
+ was assigned to pdb methyl group :     MET 244 with pdb methyl group neighbors LEU 259 / LEU 282 / LEU 310 / ILE 360 / ALA 368 /  using a cut-off distance of 6.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368
+
+
+ NMR methyl group                 :     THR 307  with NOEs to NMR methyl groups VAL 371 / 
+ was assigned to pdb methyl group :     THR 307 with pdb methyl group neighbors VAL 371 /  using a cut-off distance of 4.2 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246
+
+
+ NMR methyl group                 :     ILE 360  with NOEs to NMR methyl groups MET 244 / LEU 310 / ALA 366 / 
+ was assigned to pdb methyl group :     ILE 360 with pdb methyl group neighbors MET 244 / LEU 280 / ALA 366 / ALA 368 /  using a cut-off distance of 5.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, -0.036, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, -0.037, 0.0]
+
+
+ NMR methyl group                 :     ALA 366  with NOEs to NMR methyl groups ILE 360 / MET 244 / 
+ was assigned to pdb methyl group :     ALA 366 with pdb methyl group neighbors ILE 360 /  using a cut-off distance of 5.2 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => ILE 360 // ILE 360
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, -0.042, -0.007, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, -0.03814, -0.01626, 0.0]
+
+
+ NMR methyl group                 :     LEU 10145  with NOEs to NMR methyl groups ILE 333 / ILE 360 / MET 244 / ALA 358 / ALA 355 / LEU 310 / 
+ was assigned to pdb methyl group :     LEU 282 with pdb methyl group neighbors ILE 47 / MET 244 / LEU 310 / ILE 333 / ALA 355 / ALA 358 / ILE 360 /  using a cut-off distance of 8.200000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244
+
+
+ NMR methyl group                 :     ALA 358  with NOEs to NMR methyl groups ILE 333 / MET 362 / ALA 355 / LEU 330 / LEU 10145 / ALA 361 / ALA 359 / ALA 366 / ILE 47 / 
+ was assigned to pdb methyl group :     ALA 358 with pdb methyl group neighbors LEU 282 / LEU 330 / ILE 333 / ALA 355 / ALA 359 / ALA 361 / MET 362 /  using a cut-off distance of 6.6000000000000005 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, -0.03, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, -0.02573, 0.0]
+
+
+ NMR methyl group                 :     MET 362  with NOEs to NMR methyl groups ALA 359 / ALA 358 / ALA 361 / THR 320 / LEU 330 / LEU 328 / LEU 281 / 
+ was assigned to pdb methyl group :     MET 362 with pdb methyl group neighbors THR 320 / LEU 328 / LEU 330 / ALA 358 / ALA 359 / ALA 361 /  using a cut-off distance of 7.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.004, 999.0, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.00434, 999.0, 0.0]
+
+
+ NMR methyl group                 :     ILE 333  with NOEs to NMR methyl groups ALA 358 / ALA 286 / ALA 355 / THR 354 / LEU 10145 / 
+ was assigned to pdb methyl group :     ILE 333 with pdb methyl group neighbors LEU 282 / ALA 286 / THR 354 / ALA 355 / ALA 358 /  using a cut-off distance of 6.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358
+
+
+ NMR methyl group                 :     THR 354  with NOEs to NMR methyl groups THR 31 / 
+ was assigned to pdb methyl group :     THR 354 with pdb methyl group neighbors THR 31 / VAL 332 /  using a cut-off distance of 6.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358 => ILE 333 // ILE 333
+
+
+ NMR methyl group                 :     THR 31  with NOEs to NMR methyl groups THR 354 / THR 327 / 
+ was assigned to pdb methyl group :     THR 31 with pdb methyl group neighbors THR 196 / THR 327 /  using a cut-off distance of 5.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358 => ILE 333 // ILE 333 => THR 354 // THR 354
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, 0.019, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, 0.0254, 0.0]
+
+
+ NMR methyl group                 :     THR 327  with NOEs to NMR methyl groups ALA 27 / THR 196 / 
+ was assigned to pdb methyl group :     THR 196 with pdb methyl group neighbors ALA 27 / THR 31 /  using a cut-off distance of 5.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358 => ILE 333 // ILE 333 => THR 354 // THR 354 => THR 31 // THR 31
+
+
+ NMR methyl group                 :     THR 320  with NOEs to NMR methyl groups MET 362 / 
+ was assigned to pdb methyl group :     THR 320 with pdb methyl group neighbors LEU 328 / MET 362 /  using a cut-off distance of 7.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358 => MET 362 // MET 362
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.034, -0.007, 999.0, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.03988, 0.0021, 999.0, 0.0]
+
+
+ NMR methyl group                 :     ALA 27  with NOEs to NMR methyl groups THR 327 / THR 196 / 
+ was assigned to pdb methyl group :     ALA 27 with pdb methyl group neighbors THR 196 / THR 327 /  using a cut-off distance of 6.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358 => ILE 333 // ILE 333 => THR 354 // THR 354 => THR 31 // THR 31 => THR 327 // THR 196
+
+
+ NMR methyl group                 :     THR 196  with NOEs to NMR methyl groups ALA 27 / THR 327 / THR 31 / ALA 197 / 
+ was assigned to pdb methyl group :     THR 327 with pdb methyl group neighbors ALA 27 / THR 31 / ALA 34 / THR 196 / MET 321 /  using a cut-off distance of 6.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358 => ILE 333 // ILE 333 => THR 354 // THR 354 => THR 31 // THR 31 => THR 327 // THR 196 => ALA 27 // ALA 27
+
+
+ NMR methyl group                 :     ALA 355  with NOEs to NMR methyl groups ILE 333 / ALA 358 / LEU 10145 / 
+ was assigned to pdb methyl group :     ALA 355 with pdb methyl group neighbors LEU 282 / ILE 333 / ALA 358 /  using a cut-off distance of 4.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358 => ILE 333 // ILE 333
+
+
+ NMR methyl group                 :     ALA 361  with NOEs to NMR methyl groups MET 362 / VAL 279 / LEU 281 / 
+ was assigned to pdb methyl group :     ALA 361 with pdb methyl group neighbors VAL 279 / LEU 281 / LEU 330 / ALA 358 / MET 362 /  using a cut-off distance of 6.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358 => MET 362 // MET 362
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, -0.034, -0.018, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, -0.02844, -0.01472, 0.0]
+
+
+ NMR methyl group                 :     ALA 359  with NOEs to NMR methyl groups MET 362 / LEU 330 / LEU 328 / 
+ was assigned to pdb methyl group :     ALA 359 with pdb methyl group neighbors LEU 328 / LEU 330 / ALA 358 / MET 362 /  using a cut-off distance of 6.6000000000000005 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358 => MET 362 // MET 362
+
+
+ NMR methyl group                 :     ALA 286  with NOEs to NMR methyl groups ILE 333 / 
+ was assigned to pdb methyl group :     ALA 286 with pdb methyl group neighbors ILE 333 /  using a cut-off distance of 5.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358 => ILE 333 // ILE 333
+
+
+ NMR methyl group                 :     LEU 281  with NOEs to NMR methyl groups ILE 52 / ILE 47 / VAL 279 / ALA 361 / ALA 51 / ALA 260 / 
+ was assigned to pdb methyl group :     LEU 281 with pdb methyl group neighbors ILE 47 / ALA 51 / ILE 52 / VAL 55 / ALA 260 / VAL 279 / LEU 280 / ALA 361 /  using a cut-off distance of 7.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358 => MET 362 // MET 362 => ALA 361 // ALA 361
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, -0.045, -0.017, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, -0.0561, -0.0216, 0.0]
+
+
+ NMR methyl group                 :     ILE 52  with NOEs to NMR methyl groups ILE 47 / ALA 51 / ALA 260 / LEU 281 / 
+ was assigned to pdb methyl group :     ILE 52 with pdb methyl group neighbors ILE 47 / ALA 51 / ALA 260 / LEU 281 /  using a cut-off distance of 6.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358 => MET 362 // MET 362 => ALA 361 // ALA 361 => LEU 281 // LEU 281
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, -0.054, -0.02, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, -0.05818, -0.02127, 0.0]
+
+
+ NMR methyl group                 :     ALA 260  with NOEs to NMR methyl groups ILE 52 / LEU 281 / 
+ was assigned to pdb methyl group :     ALA 260 with pdb methyl group neighbors ILE 52 / LEU 281 /  using a cut-off distance of 4.2 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358 => MET 362 // MET 362 => ALA 361 // ALA 361 => LEU 281 // LEU 281 => ILE 52 // ILE 52
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, -0.024, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, -0.02954, 0.0]
+
+
+ NMR methyl group                 :     ILE 47  with NOEs to NMR methyl groups LEU 281 / 
+ was assigned to pdb methyl group :     ILE 47 with pdb methyl group neighbors ILE 52 / LEU 281 /  using a cut-off distance of 6.6000000000000005 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358 => MET 362 // MET 362 => ALA 361 // ALA 361 => LEU 281 // LEU 281 => ILE 52 // ILE 52
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, -0.036, -0.012, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, -0.03283, -0.01238, 0.0]
+
+
+ NMR methyl group                 :     LEU 328  with NOEs to NMR methyl groups MET 321 / MET 362 / ALA 359 / THR 320 / VAL 379 / LEU 330 / 
+ was assigned to pdb methyl group :     LEU 328 with pdb methyl group neighbors LEU 317 / THR 320 / MET 321 / LEU 330 / ALA 359 / MET 362 /  using a cut-off distance of 6.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358 => MET 362 // MET 362 => ALA 359 // ALA 359
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.009, 0.007, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.03487, 0.00244, 0.0]
+
+
+ NMR methyl group                 :     MET 321  with NOEs to NMR methyl groups THR 320 / THR 327 / THR 196 / LEU 328 / LEU 317 / LEU 204 / ALA 27 / 
+ was assigned to pdb methyl group :     MET 321 with pdb methyl group neighbors ALA 27 / THR 31 / THR 196 / LEU 204 / LEU 317 / THR 327 / LEU 328 /  using a cut-off distance of 7.2 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358 => MET 362 // MET 362 => ALA 359 // ALA 359 => LEU 328 // LEU 328
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, 0.017, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, 0.00998, 0.0]
+
+
+ NMR methyl group                 :     VAL 279  with NOEs to NMR methyl groups ALA 361 / LEU 281 / 
+ was assigned to pdb methyl group :     VAL 279 with pdb methyl group neighbors VAL 264 / LEU 281 / ALA 361 /  using a cut-off distance of 6.6000000000000005 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358 => MET 362 // MET 362 => ALA 361 // ALA 361 => LEU 281 // LEU 281
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, -0.032, -0.009, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, -0.0284, -0.01036, 0.0]
+
+
+ NMR methyl group                 :     VAL 371  with NOEs to NMR methyl groups THR 307 / 
+ was assigned to pdb methyl group :     VAL 371 with pdb methyl group neighbors THR 307 /  using a cut-off distance of 4.2 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => THR 307 // THR 307
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, -0.027, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, -0.03034, 0.0]
+
+
+ NMR methyl group                 :     VAL 153  with NOEs to NMR methyl groups VAL 158 / LEU 150 / 
+ was assigned to pdb methyl group :     VAL 153 with pdb methyl group neighbors LEU 150 / VAL 158 /  using a cut-off distance of 5.2 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215 => MET 128 // MET 128 => VAL 158 // VAL 158
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.104, 0.007, 0.007, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.09937, 0.00807, 0.00833, 0.0]
+
+
+ NMR methyl group                 :     VAL 217  with NOEs to NMR methyl groups ILE 312 / ILE 194 / 
+ was assigned to pdb methyl group :     VAL 217 with pdb methyl group neighbors ILE 194 / ILE 312 /  using a cut-off distance of 3.8000000000000003 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215 => ILE 194 // ILE 194 => MET 356 // MET 356
+
+
+ NMR methyl group                 :     LEU 330  with NOEs to NMR methyl groups MET 362 / ALA 359 / ALA 358 / LEU 328 / ILE 312 / 
+ was assigned to pdb methyl group :     LEU 330 with pdb methyl group neighbors LEU 328 / ALA 358 / ALA 359 / MET 362 /  using a cut-off distance of 4.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282 => ALA 358 // ALA 358 => MET 362 // MET 362 => ALA 359 // ALA 359 => LEU 328 // LEU 328
+
+
+ NMR methyl group                 :     LEU 259  with NOEs to NMR methyl groups VAL 246 / LEU 58 / LEU 280 / ALA 368 / VAL 55 / 
+ was assigned to pdb methyl group :     LEU 259 with pdb methyl group neighbors VAL 55 / LEU 58 / VAL 246 / LEU 280 / ALA 368 /  using a cut-off distance of 5.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, -0.041, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, -0.03765, 0.0]
+
+
+ NMR methyl group                 :     VAL 55  with NOEs to NMR methyl groups LEU 280 / LEU 259 / 
+ was assigned to pdb methyl group :     VAL 55 with pdb methyl group neighbors LEU 259 / LEU 280 /  using a cut-off distance of 4.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 259 // LEU 259
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, -0.028, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, -0.02466, 0.0]
+
+
+ NMR methyl group                 :     LEU 79  with NOEs to NMR methyl groups ILE 194 / MET 130 / VAL 217 / LEU 81 / MET 215 / MET 128 / 
+ was assigned to pdb methyl group :     LEU 79 with pdb methyl group neighbors LEU 81 / MET 128 / MET 130 / LEU 160 / ILE 194 / MET 215 / VAL 217 /  using a cut-off distance of 6.6000000000000005 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215 => ILE 194 // ILE 194 => MET 130 // MET 130
+
+
+ NMR methyl group                 :     LEU 125  with NOEs to NMR methyl groups ILE 227 / VAL 114 / VAL 78 / LEU 117 / LEU 73 / 
+ was assigned to pdb methyl group :     LEU 125 with pdb methyl group neighbors VAL 78 / VAL 114 / LEU 117 / ILE 227 /  using a cut-off distance of 5.6000000000000005 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => LEU 232 // LEU 232 => ILE 227 // ILE 227 => THR 76 // THR 76 => VAL 78 // VAL 78 => VAL 114 // VAL 114
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.084, 999.0, 0.009, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.07649, 0.00169, 0.00859, 0.0]
+
+
+ NMR methyl group                 :     LEU 58  with NOEs to NMR methyl groups ALA 368 / ILE 360 / LEU 259 / LEU 280 / 
+ was assigned to pdb methyl group :     LEU 58 with pdb methyl group neighbors LEU 259 / LEU 280 / ALA 368 /  using a cut-off distance of 5.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 259 // LEU 259
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, -0.064, -0.021, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, -0.06397, -0.02142, 0.0]
+
+
+ NMR methyl group                 :     LEU 280  with NOEs to NMR methyl groups VAL 246 / ALA 368 / LEU 259 / 
+ was assigned to pdb methyl group :     LEU 280 with pdb methyl group neighbors VAL 55 / LEU 58 / LEU 259 / ILE 360 / ALA 368 /  using a cut-off distance of 5.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 259 // LEU 259 => LEU 58 // LEU 58
+
+
+ NMR methyl group                 :     LEU 198  with NOEs to NMR methyl groups MET 128 / MET 215 / LEU 160 / LEU 204 / LEU 317 / 
+ was assigned to pdb methyl group :     LEU 198 with pdb methyl group neighbors MET 128 / LEU 160 / ILE 194 / ALA 197 / LEU 204 / LEU 207 / MET 215 / LEU 314 /  using a cut-off distance of 6.6000000000000005 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215 => ILE 194 // ILE 194 => MET 130 // MET 130 => LEU 160 // LEU 160
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, 0.012, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, 0.01396, 0.0]
+
+
+ NMR methyl group                 :     LEU 107  with NOEs to NMR methyl groups THR 139 / LEU 97 / LEU 143 / LEU 129 / 
+ was assigned to pdb methyl group :     LEU 73 with pdb methyl group neighbors THR 76 / LEU 117 / LEU 125 / ILE 227 /  using a cut-off distance of 8.8 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => LEU 232 // LEU 232 => ILE 227 // ILE 227 => THR 76 // THR 76
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, 0.036, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.01233, -0.00949, 0.00258, 0.0]
+
+
+ NMR methyl group                 :     LEU 97  with NOEs to NMR methyl groups ALA 94 / THR 139 / THR 105 / LEU 107 / LEU 143 / 
+ was assigned to pdb methyl group :     LEU 117 with pdb methyl group neighbors LEU 73 / VAL 78 / LEU 125 / THR 226 / ILE 227 /  using a cut-off distance of 7.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => LEU 232 // LEU 232 => ILE 227 // ILE 227 => THR 76 // THR 76 => LEU 107 // LEU 73
+
+
+ NMR methyl group                 :     THR 105  with NOEs to NMR methyl groups LEU 97 / 
+ was assigned to pdb methyl group :     THR 226 with pdb methyl group neighbors LEU 117 / ALA 225 /  using a cut-off distance of 6.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => LEU 232 // LEU 232 => ILE 227 // ILE 227 => THR 76 // THR 76 => LEU 107 // LEU 73 => LEU 97 // LEU 117
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, 0.018, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.05945, -0.00949, 0.01258, 0.0]
+
+
+ NMR methyl group                 :     LEU 243  with NOEs to NMR methyl groups ILE 369 / ILE 240 / MET 235 / VAL 231 / 
+ was assigned to pdb methyl group :     LEU 243 with pdb methyl group neighbors VAL 231 / MET 235 / ILE 240 / ILE 369 /  using a cut-off distance of 5.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => VAL 231 // VAL 231
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, -0.046, -0.013, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, -0.04746, -0.01462, 0.0]
+
+
+ NMR methyl group                 :     LEU 310  with NOEs to NMR methyl groups ILE 360 / MET 244 / MET 356 / ILE 312 / 
+ was assigned to pdb methyl group :     LEU 310 with pdb methyl group neighbors MET 244 / ILE 312 / MET 356 / ILE 360 /  using a cut-off distance of 7.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ALA 60 // ALA 60 => VAL 370 // VAL 370 => VAL 246 // VAL 246 => ALA 368 // ALA 368 => MET 244 // MET 244 => LEU 10145 // LEU 282
+
+
+ NMR methyl group                 :     LEU 207  with NOEs to NMR methyl groups MET 215 / VAL 77 / LEU 61 / 
+ was assigned to pdb methyl group :     LEU 207 with pdb methyl group neighbors VAL 77 / MET 128 / LEU 198 / MET 215 /  using a cut-off distance of 6.6000000000000005 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215 => MET 128 // MET 128 => VAL 77 // VAL 77
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.134, 999.0, 0.002, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.11719, 999.0, 0.00736, 0.0]
+
+
+ NMR methyl group                 :     LEU 150  with NOEs to NMR methyl groups LEU 143 / VAL 158 / VAL 153 / 
+ was assigned to pdb methyl group :     LEU 150 with pdb methyl group neighbors VAL 114 / LEU 143 / VAL 153 / VAL 158 /  using a cut-off distance of 6.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215 => MET 128 // MET 128 => VAL 158 // VAL 158 => VAL 153 // VAL 153
+
+
+ NMR methyl group                 :     LEU 81  with NOEs to NMR methyl groups MET 130 / LEU 79 / ILE 194 / 
+ was assigned to pdb methyl group :     LEU 81 with pdb methyl group neighbors LEU 79 / MET 130 / ILE 194 /  using a cut-off distance of 4.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215 => ILE 194 // ILE 194 => MET 130 // MET 130 => LEU 79 // LEU 79
+
+
+ NMR methyl group                 :     LEU 314  with NOEs to NMR methyl groups MET 215 / LEU 317 / 
+ was assigned to pdb methyl group :     LEU 314 with pdb methyl group neighbors MET 215 / LEU 317 /  using a cut-off distance of 4.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215 => MET 128 // MET 128 => VAL 77 // VAL 77
+
+
+ NMR methyl group                 :     LEU 317  with NOEs to NMR methyl groups ILE 312 / LEU 204 / 
+ was assigned to pdb methyl group :     LEU 317 with pdb methyl group neighbors LEU 204 / ILE 312 / LEU 314 / MET 321 /  using a cut-off distance of 6.2 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215 => MET 128 // MET 128 => VAL 77 // VAL 77 => LEU 314 // LEU 314
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.031, 0.01, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.0258, 0.00357, 0.0]
+
+
+ NMR methyl group                 :     LEU 204  with NOEs to NMR methyl groups LEU 317 / 
+ was assigned to pdb methyl group :     LEU 204 with pdb methyl group neighbors LEU 317 /  using a cut-off distance of 3.8000000000000003 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215 => MET 128 // MET 128 => VAL 77 // VAL 77 => LEU 314 // LEU 314 => LEU 317 // LEU 317
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.021, 0.008, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.02028, 0.00536, 0.0]
+
+
+ NMR methyl group                 :     LEU 143  with NOEs to NMR methyl groups LEU 107 / 
+ was assigned to pdb methyl group :     LEU 143 with pdb methyl group neighbors LEU 107 / ALA 111 /  using a cut-off distance of 5.6000000000000005 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ILE 369 // ILE 369 => ILE 240 // ILE 240 => MET 235 // MET 235 => ILE 312 // ILE 312 => MET 215 // MET 215 => MET 128 // MET 128 => VAL 158 // VAL 158 => VAL 153 // VAL 153 => LEU 150 // LEU 150
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.017, 0.017, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.01813, 0.01836, 0.0]
+
+ amount of assignments in cluster                  : 72
+ amount of perfectly matching building block pairs : 34
+
+
+ Cluster Score  :      128.69283141273377 of 554.0
+cluster       :      1
+
+ NMR methyl group                 :     LEU 388  with NOEs to NMR methyl groups ALA 377 / VAL 100 / VAL 379 / LEU 401 / ALA 387 / 
+ was assigned to pdb methyl group :     LEU 388 with pdb methyl group neighbors VAL 100 / LEU 223 / ALA 377 / VAL 379 / LEU 385 / ALA 387 / LEU 401 /  using a cut-off distance of 7.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.016, 999.0, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.02018, 999.0, 0.0]
+
+
+ NMR methyl group                 :     ALA 387  with NOEs to NMR methyl groups ALA 392 / VAL 414 / LEU 403 / LEU 388 / LEU 386 / 
+ was assigned to pdb methyl group :     ALA 387 with pdb methyl group neighbors ALA 383 / LEU 386 / ALA 392 / LEU 403 / VAL 414 / LEU 438 /  using a cut-off distance of 7.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.017, 0.016, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.01489, 0.01644, 0.0]
+
+
+ NMR methyl group                 :     VAL 100  with NOEs to NMR methyl groups VAL 379 / LEU 223 / LEU 388 / LEU 401 / 
+ was assigned to pdb methyl group :     VAL 100 with pdb methyl group neighbors LEU 223 / VAL 379 / LEU 388 / LEU 401 /  using a cut-off distance of 6.6000000000000005 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.026, 0.047, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.04462, 0.04764, 0.0]
+
+
+ NMR methyl group                 :     VAL 414  with NOEs to NMR methyl groups ALA 387 / LEU 386 / 
+ was assigned to pdb methyl group :     VAL 414 with pdb methyl group neighbors LEU 386 / ALA 387 /  using a cut-off distance of 4.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.023, 0.016, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.01794, 0.01211, 0.0]
+
+
+ NMR methyl group                 :     VAL 379  with NOEs to NMR methyl groups VAL 100 / LEU 388 / 
+ was assigned to pdb methyl group :     VAL 379 with pdb methyl group neighbors VAL 100 / LEU 388 /  using a cut-off distance of 6.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => VAL 100 // VAL 100
+
+
+ NMR methyl group                 :     LEU 403  with NOEs to NMR methyl groups ALA 392 / ALA 387 / VAL 439 / 
+ was assigned to pdb methyl group :     LEU 403 with pdb methyl group neighbors ALA 377 / ALA 387 / ALA 392 / VAL 439 /  using a cut-off distance of 7.6000000000000005 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, -0.013, 999.0, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, -0.01553, 999.0, 0.0]
+
+
+ NMR methyl group                 :     VAL 439  with NOEs to NMR methyl groups ALA 392 / 
+ was assigned to pdb methyl group :     VAL 439 with pdb methyl group neighbors ALA 392 /  using a cut-off distance of 5.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387 => LEU 403 // LEU 403
+
+
+ NMR methyl group                 :     LEU 386  with NOEs to NMR methyl groups VAL 414 / VAL 446 / VAL 416 / VAL 438 / LEU 430 / 
+ was assigned to pdb methyl group :     LEU 386 with pdb methyl group neighbors VAL 414 / LEU 416 / LEU 430 / LEU 438 / VAL 444 / VAL 446 /  using a cut-off distance of 6.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387 => VAL 414 // VAL 414
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.028, 0.01, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.02187, 0.01418, 0.0]
+
+
+ NMR methyl group                 :     VAL 446  with NOEs to NMR methyl groups ILE 464 / LEU 416 / LEU 430 / VAL 444 / 
+ was assigned to pdb methyl group :     VAL 444 with pdb methyl group neighbors LEU 438 / VAL 446 / LEU 458 / ILE 464 /  using a cut-off distance of 5.2 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387 => VAL 414 // VAL 414 => LEU 386 // LEU 386
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.025, 0.006, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, 0.00719, 0.0]
+
+
+ NMR methyl group                 :     ILE 464  with NOEs to NMR methyl groups ILE 475 / VAL 446 / ALA 486 / VAL 444 / LEU 481 / LEU 458 / 
+ was assigned to pdb methyl group :     ILE 464 with pdb methyl group neighbors VAL 444 / VAL 446 / LEU 458 / ILE 475 / LEU 481 / ALA 486 /  using a cut-off distance of 6.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.08, 0.007, 0.005, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.07419, 0.00559, 0.00575, 0.0]
+
+
+ NMR methyl group                 :     ILE 475  with NOEs to NMR methyl groups ILE 464 / ALA 479 / VAL 446 / ALA 486 / VAL 444 / VAL 450 / LEU 481 / LEU 438 / LEU 458 / THR 484 / 
+ was assigned to pdb methyl group :     ILE 475 with pdb methyl group neighbors LEU 430 / VAL 444 / VAL 446 / VAL 450 / LEU 458 / ILE 464 / ALA 472 / VAL 474 / ALA 479 / LEU 481 / ALA 486 /  using a cut-off distance of 9.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.059, 0.002, 0.002, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.05728, 0.00213, 0.00492, 0.0]
+
+
+ NMR methyl group                 :     ALA 486  with NOEs to NMR methyl groups ILE 475 / ILE 464 / THR 484 / THR 485 / LEU 481 / THR 450 / 
+ was assigned to pdb methyl group :     ALA 486 with pdb methyl group neighbors VAL 462 / THR 463 / ILE 464 / ILE 475 / LEU 481 / THR 484 / THR 485 /  using a cut-off distance of 7.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.045, 999.0, 0.001, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.04482, -0.00036, 0.0035, 0.0]
+
+
+ NMR methyl group                 :     THR 484  with NOEs to NMR methyl groups ALA 486 / VAL 462 / LEU 481 / 
+ was assigned to pdb methyl group :     THR 484 with pdb methyl group neighbors VAL 462 / LEU 481 / ALA 486 /  using a cut-off distance of 5.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475 => ALA 486 // ALA 486
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.034, -0.001, 0.001, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.03585, -0.00234, 0.00291, 0.0]
+
+
+ NMR methyl group                 :     THR 485  with NOEs to NMR methyl groups THR 463 / THR 445 / 
+ was assigned to pdb methyl group :     THR 485 with pdb methyl group neighbors THR 463 / ALA 486 / THR 492 /  using a cut-off distance of 6.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475 => ALA 486 // ALA 486
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.048, 0.002, 0.002, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.04954, 0.0009, 0.00289, 0.0]
+
+
+ NMR methyl group                 :     THR 463  with NOEs to NMR methyl groups THR 445 / THR 485 / 
+ was assigned to pdb methyl group :     THR 463 with pdb methyl group neighbors THR 445 / THR 485 /  using a cut-off distance of 4.6000000000000005 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475 => ALA 486 // ALA 486 => THR 485 // THR 485
+
+
+ NMR methyl group                 :     LEU 481  with NOEs to NMR methyl groups ILE 475 / ILE 464 / THR 484 / ALA 479 / ALA 486 / 
+ was assigned to pdb methyl group :     LEU 481 with pdb methyl group neighbors VAL 462 / ILE 464 / ILE 475 / ALA 479 / THR 484 / ALA 486 /  using a cut-off distance of 7.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475 => ALA 486 // ALA 486 => THR 484 // THR 484
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.04, 0.002, 0.002, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.03776, -0.00211, 0.00341, 0.0]
+
+
+ NMR methyl group                 :     VAL 444  with NOEs to NMR methyl groups ILE 464 / LEU 458 / LEU 438 / 
+ was assigned to pdb methyl group :     VAL 446 with pdb methyl group neighbors LEU 416 / LEU 430 / VAL 444 / ILE 464 /  using a cut-off distance of 5.2 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, 0.003, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.01551, 0.00858, 0.0]
+
+
+ NMR methyl group                 :     VAL 462  with NOEs to NMR methyl groups THR 484 / LEU 458 / 
+ was assigned to pdb methyl group :     VAL 462 with pdb methyl group neighbors LEU 458 / THR 484 /  using a cut-off distance of 4.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475 => ALA 486 // ALA 486 => THR 484 // THR 484
+
+
+ NMR methyl group                 :     ALA 479  with NOEs to NMR methyl groups ILE 475 / LEU 481 / 
+ was assigned to pdb methyl group :     ALA 479 with pdb methyl group neighbors ILE 475 / LEU 481 /  using a cut-off distance of 7.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475 => ALA 486 // ALA 486 => THR 484 // THR 484 => LEU 481 // LEU 481
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.034, -0.002, 0.003, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.03625, -0.00267, 0.00373, 0.0]
+
+
+ NMR methyl group                 :     ALA 377  with NOEs to NMR methyl groups LEU 388 / 
+ was assigned to pdb methyl group :     ALA 377 with pdb methyl group neighbors LEU 388 /  using a cut-off distance of 5.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, -0.028, 0.014, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, -0.03262, 0.01366, 0.0]
+
+
+ NMR methyl group                 :     ALA 392  with NOEs to NMR methyl groups LEU 403 / 
+ was assigned to pdb methyl group :     ALA 392 with pdb methyl group neighbors LEU 403 /  using a cut-off distance of 4.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387 => LEU 403 // LEU 403 => VAL 439 // VAL 439
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.061, -0.001, 0.01, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.05772, -0.00185, 0.00845, 0.0]
+
+
+ NMR methyl group                 :     LEU 458  with NOEs to NMR methyl groups ILE 475 / ILE 464 / VAL 444 / VAL 462 / LEU 438 / LEU 481 / 
+ was assigned to pdb methyl group :     LEU 458 with pdb methyl group neighbors LEU 386 / VAL 414 / LEU 438 / VAL 444 / VAL 446 / VAL 462 / ILE 464 / ILE 475 / LEU 481 / THR 484 /  using a cut-off distance of 8.200000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475 => ALA 486 // ALA 486 => THR 484 // THR 484 => VAL 462 // VAL 462
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.072, 0.003, 0.005, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.06955, 0.00402, 0.00607, 0.0]
+
+
+ NMR methyl group                 :     LEU 430  with NOEs to NMR methyl groups VAL 464 / VAL 446 / LEU 416 / LEU 386 / VAL 431 / VAL 450 / 
+ was assigned to pdb methyl group :     LEU 438 with pdb methyl group neighbors LEU 386 / ALA 387 / ALA 392 / VAL 414 / LEU 416 / VAL 444 / VAL 446 / LEU 458 / VAL 462 / ILE 464 /  using a cut-off distance of 8.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.023, 0.014, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.08132, 0.00557, 0.00783, 0.0]
+
+
+ NMR methyl group                 :     LEU 401  with NOEs to NMR methyl groups VAL 100 / VAL 395 / LEU 223 / LEU 388 / VAL 394 / 
+ was assigned to pdb methyl group :     LEU 401 with pdb methyl group neighbors VAL 100 / LEU 223 / ALA 377 / VAL 379 / LEU 388 / VAL 395 /  using a cut-off distance of 7.6000000000000005 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => VAL 100 // VAL 100
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.005, 0.026, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.14393, 0.00858, 0.02165, 0.0]
+
+
+ NMR methyl group                 :     VAL 394  with NOEs to NMR methyl groups VAL 402 / THR 396 / 
+ was assigned to pdb methyl group :     VAL 395 with pdb methyl group neighbors VAL 394 / THR 396 / LEU 401 /  using a cut-off distance of 7.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => VAL 100 // VAL 100 => LEU 401 // LEU 401
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.021, -0.012, 0.009, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.00135, 0.01337, 0.0]
+
+
+ NMR methyl group                 :     THR 396  with NOEs to NMR methyl groups VAL 402 / VAL 394 / 
+ was assigned to pdb methyl group :     THR 396 with pdb methyl group neighbors VAL 394 / VAL 402 /  using a cut-off distance of 5.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => VAL 100 // VAL 100 => LEU 401 // LEU 401 => VAL 394 // VAL 395
+
+
+ NMR methyl group                 :     VAL 402  with NOEs to NMR methyl groups VAL 394 / THR 396 / 
+ was assigned to pdb methyl group :     VAL 394 with pdb methyl group neighbors THR 396 / VAL 402 /  using a cut-off distance of 5.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => VAL 100 // VAL 100 => LEU 401 // LEU 401 => VAL 394 // VAL 395 => THR 396 // THR 396
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.001, -0.012, 0.006, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.02766, -0.00853, 0.0067, 0.0]
+
+
+ NMR methyl group                 :     LEU 416  with NOEs to NMR methyl groups VAL 446 / VAL 349 / LEU 430 / LEU 386 / 
+ was assigned to pdb methyl group :     LEU 416 with pdb methyl group neighbors ALA 383 / LEU 386 / LEU 430 / VAL 444 / VAL 446 /  using a cut-off distance of 5.6000000000000005 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => ALA 387 // ALA 387 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => LEU 430 // LEU 438
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.034, 0.016, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.02761, 0.01284, 0.0]
+
+
+ NMR methyl group                 :     LEU 223  with NOEs to NMR methyl groups VAL 100 / LEU 401 / 
+ was assigned to pdb methyl group :     LEU 223 with pdb methyl group neighbors VAL 100 / THR 110 / LEU 401 /  using a cut-off distance of 6.6000000000000005 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 388 // LEU 388 => VAL 100 // VAL 100 => LEU 401 // LEU 401
+
+ amount of assignments in cluster                  : 29
+ amount of perfectly matching building block pairs : 14
+
+
+ Cluster Score  :      83.80645785318342 of 206.0
+cluster       :      2
+
+ NMR methyl group                 :     ALA 111  with NOEs to NMR methyl groups LEU 112 / THR 110 / LEU 143 / LEU 150 / VAL 114 / 
+ was assigned to pdb methyl group :     ALA 111 with pdb methyl group neighbors THR 110 / LEU 112 / VAL 114 / LEU 143 / LEU 150 /  using a cut-off distance of 6.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, 0.025, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, 0.01908, 0.0]
+
+ amount of assignments in cluster                  : 1
+ amount of perfectly matching building block pairs : 1
+
+
+ Cluster Score  :      9.408 of 10.0
+cluster       :      3
+
+ NMR methyl group                 :     VAL 24  with NOEs to NMR methyl groups ILE 29 / ALA 22 / MET 19 / 
+ was assigned to pdb methyl group :     VAL 24 with pdb methyl group neighbors MET 19 / ALA 22 / ILE 29 /  using a cut-off distance of 5.6000000000000005 Amgstroem
+ methyl walk (NMR//pdb)           :     start
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, 0.002, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, -0.00313, 0.0]
+
+
+ NMR methyl group                 :     MET 19  with NOEs to NMR methyl groups ILE 33 / ILE 29 / VAL 264 / ALA 22 / ALA 24 / VAL 16 / 
+ was assigned to pdb methyl group :     MET 19 with pdb methyl group neighbors VAL 16 / ALA 22 / VAL 24 / ILE 29 / ILE 33 / VAL 165 /  using a cut-off distance of 8.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => VAL 24 // VAL 24
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.101, 0.007, 0.001, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.10692, 0.01531, 0.00824, 0.0]
+
+
+ NMR methyl group                 :     ILE 33  with NOEs to NMR methyl groups MET 1 / ALA 12 / LEU 8 / ALA 16 / 
+ was assigned to pdb methyl group :     ILE 33 with pdb methyl group neighbors LEU 8 / ALA 12 / VAL 16 / MET 19 / ILE 29 / ALA 34 / VAL 37 /  using a cut-off distance of 8.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => VAL 24 // VAL 24 => MET 19 // MET 19
+
+
+ NMR methyl group                 :     ILE 29  with NOEs to NMR methyl groups MET 19 / 
+ was assigned to pdb methyl group :     ILE 29 with pdb methyl group neighbors MET 19 /  using a cut-off distance of 5.2 Amgstroem
+ methyl walk (NMR//pdb)           :     start => VAL 24 // VAL 24 => MET 19 // MET 19
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.064, 0.01, 0.004, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.06808, 0.0059, 0.00403, 0.0]
+
+
+ NMR methyl group                 :     ALA 12  with NOEs to NMR methyl groups ILE 33 / LEU 8 / VAL 37 / VAL 16 / 
+ was assigned to pdb methyl group :     ALA 12 with pdb methyl group neighbors LEU 8 / ALA 11 / VAL 16 / ILE 33 / VAL 37 /  using a cut-off distance of 5.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => VAL 24 // VAL 24 => MET 19 // MET 19 => ILE 33 // ILE 33
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.073, 0.003, 0.012, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.0723, 0.00293, 0.00992, 0.0]
+
+
+ NMR methyl group                 :     ALA 22  with NOEs to NMR methyl groups VAL 24 / 
+ was assigned to pdb methyl group :     ALA 22 with pdb methyl group neighbors VAL 24 /  using a cut-off distance of 4.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => VAL 24 // VAL 24 => MET 19 // MET 19
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, 0.001, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, -0.00728, 0.0]
+
+
+ NMR methyl group                 :     VAL 16  with NOEs to NMR methyl groups ILE 33 / MET 1 / VAL 8 / 
+ was assigned to pdb methyl group :     VAL 16 with pdb methyl group neighbors LEU 8 / ALA 12 / ALA 14 / MET 19 / ILE 29 / ILE 33 / VAL 37 /  using a cut-off distance of 8.8 Amgstroem
+ methyl walk (NMR//pdb)           :     start => VAL 24 // VAL 24 => MET 19 // MET 19 => ILE 33 // ILE 33 => ALA 12 // ALA 12
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.069, -0.002, 999.0, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.06107, 0.00272, 999.0, 0.0]
+
+
+ NMR methyl group                 :     VAL 37  with NOEs to NMR methyl groups LEU 8 / 
+ was assigned to pdb methyl group :     VAL 37 with pdb methyl group neighbors LEU 8 /  using a cut-off distance of 4.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => VAL 24 // VAL 24 => MET 19 // MET 19 => ILE 33 // ILE 33 => ALA 12 // ALA 12
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.009, 0.011, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.01012, 0.01238, 0.0]
+
+
+ NMR methyl group                 :     LEU 8  with NOEs to NMR methyl groups VAL 37 / ILE 33 / 
+ was assigned to pdb methyl group :     LEU 8 with pdb methyl group neighbors ALA 12 / ILE 33 / VAL 37 /  using a cut-off distance of 5.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => VAL 24 // VAL 24 => MET 19 // MET 19 => ILE 33 // ILE 33 => ALA 12 // ALA 12 => VAL 37 // VAL 37
+
+ amount of assignments in cluster                  : 9
+ amount of perfectly matching building block pairs : 5
+
+
+ Cluster Score  :      6.653819284394469 of 50.0
+cluster       :      4
+
+ NMR methyl group                 :     THR 139  with NOEs to NMR methyl groups LEU 143 / LEU 107 / LEU 129 / 
+ was assigned to pdb methyl group :     THR 139 with pdb methyl group neighbors LEU 107 / LEU 129 / LEU 143 /  using a cut-off distance of 5.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.038, 0.021, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.03501, 0.02535, 0.0]
+
+ amount of assignments in cluster                  : 1
+ amount of perfectly matching building block pairs : 1
+
+
+ Cluster Score  :      5.266000000000001 of 6.0
+cluster       :      5
+
+ NMR methyl group                 :     ALA 10184  with NOEs to NMR methyl groups VAL 10209 / 
+ was assigned to pdb methyl group :     ALA 71 with pdb methyl group neighbors VAL 72 /  using a cut-off distance of 5.2 Amgstroem
+ methyl walk (NMR//pdb)           :     start
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, -0.006, 0.001, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.00441, -0.00918, 0.00099, 0.0]
+
+
+ NMR methyl group                 :     VAL 10209  with NOEs to NMR methyl groups ALA 10184 / 
+ was assigned to pdb methyl group :     VAL 72 with pdb methyl group neighbors ALA 71 /  using a cut-off distance of 5.2 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ALA 10184 // ALA 71
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[0.015, -0.013, -0.003, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[0.0128, -0.01239, -0.0004, 0.0]
+
+ amount of assignments in cluster                  : 2
+ amount of perfectly matching building block pairs : 2
+
+
+ Cluster Score  :      3.1399999999999997 of 4.0
+cluster       :      6
+
+ NMR methyl group                 :     LEU 438  with NOEs to NMR methyl groups VAL 414 / LEU 458 / VAL 444 / 
+ was assigned to pdb methyl group :     LEU 430 with pdb methyl group neighbors LEU 386 / LEU 416 / VAL 431 / VAL 446 /  using a cut-off distance of 6.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.088, 0.005, 0.006, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.02054, 0.01216, 0.0]
+
+ amount of assignments in cluster                  : 1
+ amount of perfectly matching building block pairs : 0
+
+
+ Cluster Score  :      2.83 of 6.0
+cluster       :      7
+
+ NMR methyl group                 :     LEU 61  with NOEs to NMR methyl groups ILE 369 / VAL 231 / 
+ was assigned to pdb methyl group :     LEU 61 with pdb methyl group neighbors VAL 231 / ILE 369 / VAL 371 /  using a cut-off distance of 5.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, -0.046, -0.012, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, -0.04686, -0.00979, 0.0]
+
+ amount of assignments in cluster                  : 1
+ amount of perfectly matching building block pairs : 0
+
+
+ Cluster Score  :      2.693 of 4.0
+cluster       :      8
+
+ NMR methyl group                 :     VAL 208  with NOEs to NMR methyl groups LEU 318 / 
+ was assigned to pdb methyl group :     VAL 208 with pdb methyl group neighbors LEU 318 /  using a cut-off distance of 4.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.07, 999.0, 999.0, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.07588, 999.0, 0.00328, 0.0]
+
+
+ NMR methyl group                 :     LEU 318  with NOEs to NMR methyl groups VAL 208 / 
+ was assigned to pdb methyl group :     LEU 318 with pdb methyl group neighbors VAL 208 /  using a cut-off distance of 4.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => VAL 208 // VAL 208
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.067, 0.002, 999.0, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.08015, 0.00832, 0.00353, 0.0]
+
+ amount of assignments in cluster                  : 2
+ amount of perfectly matching building block pairs : 2
+
+
+ Cluster Score  :      1.465000000000001 of 4.0
+cluster       :      9
+
+ NMR methyl group                 :     VAL 349  with NOEs to NMR methyl groups ALA 176 / THR 10205 / VAL 339 / 
+ was assigned to pdb methyl group :     VAL 349 with pdb methyl group neighbors ALA 176 / THR 338 / VAL 339 /  using a cut-off distance of 6.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, -0.012, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, 0.00398, 0.0]
+
+
+ NMR methyl group                 :     ALA 176  with NOEs to NMR methyl groups LEU 169 / VAL 339 / 
+ was assigned to pdb methyl group :     ALA 176 with pdb methyl group neighbors LEU 169 / VAL 339 /  using a cut-off distance of 4.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => VAL 349 // VAL 349
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, -0.018, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, -0.00474, 0.0]
+
+
+ NMR methyl group                 :     VAL 339  with NOEs to NMR methyl groups VAL 349 / ALA 176 / LEU 169 / 
+ was assigned to pdb methyl group :     VAL 339 with pdb methyl group neighbors LEU 169 / ALA 176 / VAL 349 /  using a cut-off distance of 6.4 Amgstroem
+ methyl walk (NMR//pdb)           :     start => VAL 349 // VAL 349 => ALA 176 // ALA 176
+
+
+ NMR methyl group                 :     LEU 169  with NOEs to NMR methyl groups ALA 176 / 
+ was assigned to pdb methyl group :     LEU 169 with pdb methyl group neighbors ALA 176 /  using a cut-off distance of 3.8000000000000003 Amgstroem
+ methyl walk (NMR//pdb)           :     start => VAL 349 // VAL 349 => ALA 176 // ALA 176 => VAL 339 // VAL 339
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, -0.043, -0.005, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, -0.03367, 0.00221, 0.0]
+
+ amount of assignments in cluster                  : 4
+ amount of perfectly matching building block pairs : 4
+
+
+ Cluster Score  :      1.3034096421972343 of 18.0
+cluster       :      10
+
+ NMR methyl group                 :     ALA 472  with NOEs to NMR methyl groups VAL 474 / LEU 449 / 
+ was assigned to pdb methyl group :     ALA 472 with pdb methyl group neighbors LEU 449 / VAL 474 /  using a cut-off distance of 4.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.036, -0.005, 0.002, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.03643, -0.00132, 0.00329, 0.0]
+
+
+ NMR methyl group                 :     VAL 474  with NOEs to NMR methyl groups ALA 472 / 
+ was assigned to pdb methyl group :     VAL 474 with pdb methyl group neighbors ALA 472 /  using a cut-off distance of 4.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ALA 472 // ALA 472
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.032, -0.007, 0.002, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.03526, -0.00219, 0.00349, 0.0]
+
+
+ NMR methyl group                 :     LEU 449  with NOEs to NMR methyl groups LEU 472 / 
+ was assigned to pdb methyl group :     LEU 449 with pdb methyl group neighbors ALA 472 /  using a cut-off distance of 3.8000000000000003 Amgstroem
+ methyl walk (NMR//pdb)           :     start => ALA 472 // ALA 472
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.047, 0.002, 0.002, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.03789, -0.0001, 0.0031, 0.0]
+
+ amount of assignments in cluster                  : 3
+ amount of perfectly matching building block pairs : 3
+
+
+ Cluster Score  :      1.2729999999999997 of 8.0
+cluster       :      11
+
+ NMR methyl group                 :     LEU 352  with NOEs to NMR methyl groups ILE 168 / VAL 39 / VAL 332 / 
+ was assigned to pdb methyl group :     LEU 352 with pdb methyl group neighbors VAL 39 / ILE 168 / VAL 332 /  using a cut-off distance of 4.6000000000000005 Amgstroem
+ methyl walk (NMR//pdb)           :     start
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 999.0, 0.066, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 999.0, 0.06282, 0.0]
+
+
+ NMR methyl group                 :     ILE 168  with NOEs to NMR methyl groups LEU 173 / VAL 39 / LEU 352 / 
+ was assigned to pdb methyl group :     ILE 168 with pdb methyl group neighbors VAL 39 / LEU 173 / LEU 352 /  using a cut-off distance of 5.800000000000001 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 352 // LEU 352
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.007, 0.025, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.00691, 0.02576, 0.0]
+
+
+ NMR methyl group                 :     VAL 332  with NOEs to NMR methyl groups MET 38 / MET 244 / LEU 352 / 
+ was assigned to pdb methyl group :     VAL 39 with pdb methyl group neighbors LEU 352 /  using a cut-off distance of 3.8000000000000003 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 352 // LEU 352
+
+
+ NMR methyl group                 :     LEU 173  with NOEs to NMR methyl groups ILE 168 / 
+ was assigned to pdb methyl group :     LEU 173 with pdb methyl group neighbors ILE 168 /  using a cut-off distance of 4.0 Amgstroem
+ methyl walk (NMR//pdb)           :     start => LEU 352 // LEU 352 => ILE 168 // ILE 168
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[999.0, 0.002, 0.02, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[999.0, 0.00302, 0.02213, 0.0]
+
+ amount of assignments in cluster                  : 4
+ amount of perfectly matching building block pairs : 3
+
+
+ Cluster Score  :      1.163409642197233 of 20.0
+cluster       :      12
+
+ NMR methyl group                 :     ALA 11  with NOEs to NMR methyl groups ILE 168 / ALA 10029 / ILE 173 / ALA 12 / 
+ was assigned to pdb methyl group :     ALA 11 with pdb methyl group neighbors ALA 10 / ALA 12 / ALA 14 / ILE 33 / ILE 168 / THR 172 / LEU 173 /  using a cut-off distance of 8.6 Amgstroem
+ methyl walk (NMR//pdb)           :     start
+additional NMR restrains (chemical shift / PRE / PCS / RDC)  :[-0.04, -0.009, 0.007, 0.0]
+additional predicted restrains (chemical shift / PRE / PCS / RDC) :[-0.03376, -0.00474, 0.00902, 0.0]
+
+ amount of assignments in cluster                  : 1
+ amount of perfectly matching building block pairs : 0
+
+
+ Cluster Score  :      3.7479999999999998 of 8.0
