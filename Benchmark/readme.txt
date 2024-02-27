@@ -1,0 +1,4 @@
+-Folders are named according to the protein
+-the subfolders are named according to the maximal cut-off distance. The minimal cut-off distance was always 3 Angstroem
+-the p=1 folder corresponds to the final run with optimized cut-off distances (see Methods)
+-Note that the .pdb file still have their original names. If you don't want to change the .pdb file name in the python script, please use the AMIGO.py and run_AMIGO.sh scripts in /AMIGO/InputFilesExample_LmUGP and specify the input file names in run_AMIGO.sh

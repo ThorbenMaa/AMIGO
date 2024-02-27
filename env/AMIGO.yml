@@ -1,0 +1,16 @@
+name: AMIGO
+channels:
+  - conda-forge
+  - default
+  - bioconda
+  - defaults
+dependencies:
+  - python
+  - networkx
+  - ca-certificates
+  - openssl
+  - numpy
+  - matplotlib
+  - pandas
+  - certifi
+  - click
