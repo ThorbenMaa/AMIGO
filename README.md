@@ -37,7 +37,7 @@ mamba install click
 ### prepare cut-off range optimization
 Operate from inside the `Tutorial_no_PCSs_LmUGP` folder.
 
-If you have your own data set, make sure that the data folder contains the according `noe.txt`, `additional_measure.txt`, `additional_xtal.txt`, and `preassignments.txt` file as in the `data` folder. `additional_measure.txt`, `additional_xtal.txt`, and `preassignments.txt` are optional and you can leave them empty. However, the (empty) files have to be present. We won't use any information in `additional_measure.txt` or `additional_xtal.txt` in this tutorial by setting the according weight factors to 0 (see below).
+If you have your own data set, make sure that the data folder contains the according `noe.txt`, `additional_measure.txt`, `additional_xtal.txt`, and `preassignments.txt` file as in the `data` folder. `additional_measure.txt`, `additional_xtal.txt`, and `preassignments.txt` are optional. However, the files have to be present. For `additional_measure.txt`, `additional_xtal.txt` you can put a single line in there containing `0	0	0	0	0	0`. `preassignments.txt` can be left completely empty.
 
 **Details of the noe.txt file**
 The first column contains the amino acid type of the NOE donor, the second column contains the peak ID of the NOE donor,
@@ -242,3 +242,8 @@ The folder structure and files should look identical to `LmUGP_without_PCS` in t
 Operate from inside the `Tutorial_PCS_GTB` folder.
 
 Using PCS makes AMIGO very robust in terms of cut-off range choices. We recomment to just use 3 to 9 Angstroems in 0.2 Angstroem steps for all labeled amino acids. Prepare all input files according to the files in this folder.
+
+If you have your own data set, make sure that the data folder contains the according `noe.txt` (explanations given in the tutorial on how to use AMIGO without PCSs), `additional_measure.txt`, `additional_xtal.txt`, and `preassignments.txt` file as in the `Tutorial_PCS_GTB` folder. `preassignments.txt` are optional and you can leave it empty. However, the (empty) file has to be present. 
+
+**Details of the `additional_measure.txt`, `additional_xtal.txt`**
+`additional_measure.txt` contains measured PCSs, `additional_xtal.txt` contains theoretically determined PCSs. Up to four different sets of PCSs are supported (e.g. induced by different paramagnetic metals). The first and second columns are the amino acid type and the peak ID or the amino acid type and the residue ID from the pdb file, respectively. The third columns correspond to the first set of measured and theoretically derived PCSs, respectively. The second ones to the second set of measured and theoretically derived PCSs, respectively, and so on... If yo......
