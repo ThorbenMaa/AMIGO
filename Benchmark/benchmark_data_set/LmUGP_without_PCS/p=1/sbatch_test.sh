@@ -31,7 +31,7 @@ bash run_AMIGO.sh
 cd ./../7
 bash run_AMIGO.sh
 
-cd ./../8
+cd ./../8-5
 bash run_AMIGO.sh
 
 

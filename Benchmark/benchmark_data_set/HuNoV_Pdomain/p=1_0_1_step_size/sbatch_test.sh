@@ -11,7 +11,7 @@
 #  Request 50GB of memory (hard constraint):
 #SBATCH --mem=50GB
 #  Request one hour maximal execution time (hard constraint):
-#SBATCH --time=1-00:00:00
+#SBATCH --time=3-00:00:00
 #  Request 100 GB of local scratch disk (hard constraint):
 #SBATCH --tmp=10GB
 #  Find your job easier with a name:
@@ -26,6 +26,10 @@ source /etc/profile.d/modules.sh
 echo start
 
 cd ./9
+bash run_AMIGO.sh
+cd ./../9-5
+bash run_AMIGO.sh
+cd ./../10
 bash run_AMIGO.sh
 
 

@@ -10,13 +10,13 @@ python AMIGO_non_interactive.py \
 --max_met 0 \
 --step_met 1 \
 --min_ile 3 \
---max_ile 11 \
+--max_ile 10 \
 --step_ile 0.2 \
 --min_leu 3 \
---max_leu 11 \
+--max_leu 10 \
 --step_leu 0.2 \
 --min_val 3 \
---max_val 11 \
+--max_val 10 \
 --step_val 0.2 \
 --min_ala 0 \
 --max_ala 0 \
