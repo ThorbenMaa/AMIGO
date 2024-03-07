@@ -1,0 +1,130 @@
+start
+progress:  0  %
+progress:  3  %
+progress:  6  %
+progress:  9  %
+progress:  12  %
+progress:  15  %
+progress:  100  %
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/7/AMIGO_non_interactive.py", line 1772, in <module>
+    cli()
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/7/AMIGO_non_interactive.py", line 746, in cli
+    if assignment_pair_array_all_solutions[0]==[] and len(assignment_pair_array_all_solutions==1):
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'bool' has no len()
+progress:  0  %
+progress:  3  %
+progress:  6  %
+progress:  9  %
+progress:  12  %
+progress:  100  %
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/7-5/AMIGO_non_interactive.py", line 1772, in <module>
+    cli()
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/7-5/AMIGO_non_interactive.py", line 746, in cli
+    if assignment_pair_array_all_solutions[0]==[] and len(assignment_pair_array_all_solutions==1):
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'bool' has no len()
+progress:  0  %
+progress:  3  %
+progress:  6  %
+progress:  9  %
+progress:  12  %
+progress:  15  %
+progress:  100  %
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/8/AMIGO_non_interactive.py", line 1772, in <module>
+    cli()
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/8/AMIGO_non_interactive.py", line 746, in cli
+    if assignment_pair_array_all_solutions[0]==[] and len(assignment_pair_array_all_solutions==1):
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'bool' has no len()
+progress:  0  %
+progress:  3  %
+progress:  6  %
+progress:  9  %
+progress:  12  %
+progress:  15  %
+progress:  100  %
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/8-5/AMIGO_non_interactive.py", line 1772, in <module>
+    cli()
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/8-5/AMIGO_non_interactive.py", line 746, in cli
+    if assignment_pair_array_all_solutions[0]==[] and len(assignment_pair_array_all_solutions==1):
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'bool' has no len()
+progress:  0  %
+progress:  3  %
+progress:  6  %
+progress:  9  %
+progress:  12  %
+progress:  100  %
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/9/AMIGO_non_interactive.py", line 1772, in <module>
+    cli()
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/9/AMIGO_non_interactive.py", line 746, in cli
+    if assignment_pair_array_all_solutions[0]==[] and len(assignment_pair_array_all_solutions==1):
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'bool' has no len()
+slurmstepd-node24: error: *** JOB 1195852 ON node24 CANCELLED AT 2024-03-06T08:44:22 ***

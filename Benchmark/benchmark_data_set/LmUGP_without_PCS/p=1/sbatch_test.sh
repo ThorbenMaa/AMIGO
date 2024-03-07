@@ -26,12 +26,12 @@ source /etc/profile.d/modules.sh
 echo start
 
 
-cd ./7-5
-bash run_AMIGO.sh
+#cd ./9
+#bash run_AMIGO.sh
 cd ./../7
 bash run_AMIGO.sh
 
-cd ./../8-5
+cd ./../7-5
 bash run_AMIGO.sh
 
 

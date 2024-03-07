@@ -519,7 +519,15 @@ additional theoretical restraints are [additional restraint 1, 2, 3 and 4]     :
 
 
 
-methyl walk (NMR//pdb)                   :     start => MET 89 // MET 89 => THR 381 // THR 381 => ALA 383 // ALA 383 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475 => ALA 486 // ALA 486
+methyl walk (NMR//pdb)                   :     start => MET 89 // MET 89 => THR 381 // THR 381 => ALA 383 // ALA 383 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475
+was extened with methyl group resonance  :     ALA 479  with NOEs to resonances ILE 475 / LEU 481 / 
+and thereby assigned to pdb methyl group :     ALA 479 with expected NOEs to   ILE 475 / LEU 481 /  applying a cut-off distance of 7.0 Amgstroem  
+additional experimental restraints are [additional restraint 1, 2, 3 and 4]    :[-0.034, -0.002, 0.003, 999.0]
+additional theoretical restraints are [additional restraint 1, 2, 3 and 4]     :[-0.03625, -0.00267, 0.00373, 999.0]
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 89 // MET 89 => THR 381 // THR 381 => ALA 383 // ALA 383 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475 => ALA 479 // ALA 479
 was extened with methyl group resonance  :     LEU 481  with NOEs to resonances ILE 464 / ILE 475 / ALA 479 / THR 484 / ALA 486 / 
 and thereby assigned to pdb methyl group :     LEU 481 with expected NOEs to   VAL 462 / ILE 464 / ILE 475 / ALA 479 / THR 484 / ALA 486 /  applying a cut-off distance of 7.0 Amgstroem  
 additional experimental restraints are [additional restraint 1, 2, 3 and 4]    :[-0.04, 0.002, 0.002, 999.0]
@@ -527,7 +535,21 @@ additional theoretical restraints are [additional restraint 1, 2, 3 and 4]     :
 
 
 
-methyl walk (NMR//pdb)                   :     start => MET 89 // MET 89 => THR 381 // THR 381 => ALA 383 // ALA 383 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475 => ALA 486 // ALA 486 => LEU 481 // LEU 481
+methyl walk (NMR//pdb)                   :     start => MET 89 // MET 89 => THR 381 // THR 381 => ALA 383 // ALA 383 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475 => ALA 486 // ALA 486
+was extened with methyl group resonance  :     THR 485  with NOEs to resonances THR 445 / THR 463 / 
+and thereby assigned to pdb methyl group :     THR 485 with expected NOEs to   THR 463 / ALA 486 / THR 492 /  applying a cut-off distance of 6.0 Amgstroem  
+additional experimental restraints are [additional restraint 1, 2, 3 and 4]    :[-0.048, 0.002, 0.002, 999.0]
+additional theoretical restraints are [additional restraint 1, 2, 3 and 4]     :[-0.04954, 0.0009, 0.00289, 999.0]
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 89 // MET 89 => THR 381 // THR 381 => ALA 383 // ALA 383 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475 => ALA 486 // ALA 486 => THR 485 // THR 485
+was extened with methyl group resonance  :     THR 463  with NOEs to resonances THR 445 / THR 485 / 
+and thereby assigned to pdb methyl group :     THR 463 with expected NOEs to   THR 445 / THR 485 /  applying a cut-off distance of 4.6000000000000005 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 89 // MET 89 => THR 381 // THR 381 => ALA 383 // ALA 383 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475 => ALA 479 // ALA 479 => LEU 481 // LEU 481
 was extened with methyl group resonance  :     THR 484  with NOEs to resonances VAL 462 / LEU 481 / ALA 486 / 
 and thereby assigned to pdb methyl group :     THR 484 with expected NOEs to   VAL 462 / LEU 481 / ALA 486 /  applying a cut-off distance of 5.0 Amgstroem  
 additional experimental restraints are [additional restraint 1, 2, 3 and 4]    :[-0.034, -0.001, 0.001, 999.0]
@@ -535,17 +557,9 @@ additional theoretical restraints are [additional restraint 1, 2, 3 and 4]     :
 
 
 
-methyl walk (NMR//pdb)                   :     start => MET 89 // MET 89 => THR 381 // THR 381 => ALA 383 // ALA 383 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475 => ALA 486 // ALA 486 => LEU 481 // LEU 481 => THR 484 // THR 484
+methyl walk (NMR//pdb)                   :     start => MET 89 // MET 89 => THR 381 // THR 381 => ALA 383 // ALA 383 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475 => ALA 479 // ALA 479 => LEU 481 // LEU 481 => THR 484 // THR 484
 was extened with methyl group resonance  :     VAL 462  with NOEs to resonances LEU 458 / THR 484 / 
 and thereby assigned to pdb methyl group :     VAL 462 with expected NOEs to   LEU 458 / THR 484 /  applying a cut-off distance of 4.800000000000001 Amgstroem  
-
-
-
-methyl walk (NMR//pdb)                   :     start => MET 89 // MET 89 => THR 381 // THR 381 => ALA 383 // ALA 383 => VAL 414 // VAL 414 => LEU 386 // LEU 386 => VAL 446 // VAL 444 => ILE 464 // ILE 464 => ILE 475 // ILE 475 => ALA 486 // ALA 486 => LEU 481 // LEU 481
-was extened with methyl group resonance  :     ALA 479  with NOEs to resonances ILE 475 / LEU 481 / 
-and thereby assigned to pdb methyl group :     ALA 479 with expected NOEs to   ILE 475 / LEU 481 /  applying a cut-off distance of 7.0 Amgstroem  
-additional experimental restraints are [additional restraint 1, 2, 3 and 4]    :[-0.034, -0.002, 0.003, 999.0]
-additional theoretical restraints are [additional restraint 1, 2, 3 and 4]     :[-0.03625, -0.00267, 0.00373, 999.0]
 
 
 
@@ -593,9 +607,9 @@ methyl walk (NMR//pdb)                   :     start => MET 89 // MET 89 => VAL 
 was extened with methyl group resonance  :     LEU 223  with NOEs to resonances VAL 100 / LEU 401 / 
 and thereby assigned to pdb methyl group :     LEU 223 with expected NOEs to   VAL 100 / THR 110 / LEU 401 /  applying a cut-off distance of 6.6000000000000005 Amgstroem  
 
-amount of assignments in cluster                  : 32
-amount of perfectly matching building block pairs : 16
-Cluster Score  :      191.0 of 236.0
+amount of assignments in cluster                  : 34
+amount of perfectly matching building block pairs : 17
+Cluster Score  :      198.0 of 244.0
 
 cluster       :      2
 
@@ -891,19 +905,19 @@ additional theoretical restraints are [additional restraint 1, 2, 3 and 4]     :
 
 
 
-methyl walk (NMR//pdb)                   :     start => MET 19 // MET 19 => ILE 33 // ILE 33 => ALA 12 // ALA 12
-was extened with methyl group resonance  :     VAL 16  with NOEs to resonances MET 1 / LEU 8 / ILE 33 / 
-and thereby assigned to pdb methyl group :     VAL 16 with expected NOEs to   LEU 8 / ALA 12 / MET 19 / ILE 29 / ILE 33 /  applying a cut-off distance of 7.4 Amgstroem  
-additional experimental restraints are [additional restraint 1, 2, 3 and 4]    :[-0.069, -0.002, 999.0, 999.0]
-additional theoretical restraints are [additional restraint 1, 2, 3 and 4]     :[-0.06107, 0.00272, 999.0, 999.0]
-
-
-
 methyl walk (NMR//pdb)                   :     start => MET 19 // MET 19 => VAL 24 // VAL 24
 was extened with methyl group resonance  :     ALA 22  with NOEs to resonances VAL 24 / 
 and thereby assigned to pdb methyl group :     ALA 22 with expected NOEs to   VAL 24 /  applying a cut-off distance of 4.4 Amgstroem  
 additional experimental restraints are [additional restraint 1, 2, 3 and 4]    :[999.0, 999.0, 0.001, 999.0]
 additional theoretical restraints are [additional restraint 1, 2, 3 and 4]     :[999.0, 999.0, -0.00728, 999.0]
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 19 // MET 19 => ILE 33 // ILE 33 => ALA 12 // ALA 12
+was extened with methyl group resonance  :     VAL 16  with NOEs to resonances MET 1 / LEU 8 / ILE 33 / 
+and thereby assigned to pdb methyl group :     VAL 16 with expected NOEs to   LEU 8 / ALA 12 / MET 19 / ILE 29 / ILE 33 /  applying a cut-off distance of 7.4 Amgstroem  
+additional experimental restraints are [additional restraint 1, 2, 3 and 4]    :[-0.069, -0.002, 999.0, 999.0]
+additional theoretical restraints are [additional restraint 1, 2, 3 and 4]     :[-0.06107, 0.00272, 999.0, 999.0]
 
 
 
@@ -923,11 +937,11 @@ amount of assignments in cluster                  : 9
 amount of perfectly matching building block pairs : 5
 Cluster Score  :      43.0 of 50.0
 
-total amount of assignments                             : 124
-total amount of perfectly matching building block pairs: 59
+total amount of assignments                             : 126
+total amount of perfectly matching building block pairs: 60
 total ratio of perfectly matching building block pairs to toal assignments for MET: 5 / 11
 total ratio of perfectly matching building block pairs to toal assignments for ILE: 5 / 14
 total ratio of perfectly matching building block pairs to toal assignments for LEU: 14 / 40
 total ratio of perfectly matching building block pairs to toal assignments for VAL: 15 / 24
 total ratio of perfectly matching building block pairs to toal assignments for ALA: 11 / 21
-total ratio of perfectly matching building block pairs to toal assignments for THR: 9 / 14
+total ratio of perfectly matching building block pairs to toal assignments for THR: 10 / 16

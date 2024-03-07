@@ -1,21 +1,26 @@
-- [install AMIGO](#install-amigo)
+# AMIGO
+This repository contains data sets, results, and tutorials used in the following manuscript PLACEHOLDER.
+
+
+- [AMIGO](#amigo)
+- [Install AMIGO](#install-amigo)
     - [Clone this repository](#clone-this-repository)
     - [Install dependencies](#install-dependencies)
 - [Tutorial on how to use AMIGO without PCSs on the LmUGP example on a Linux system](#tutorial-on-how-to-use-amigo-without-pcss-on-the-lmugp-example-on-a-linux-system)
-  - [cut-off range optimization](#cut-off-range-optimization)
-    - [prepare cut-off range optimization](#prepare-cut-off-range-optimization)
-    - [run cut-off range optimization](#run-cut-off-range-optimization)
-    - [determine optimal cut-off ranges](#determine-optimal-cut-off-ranges)
-  - [actual AMIGO runs](#actual-amigo-runs)
-    - [prepare the folders for the actual runs](#prepare-the-folders-for-the-actual-runs)
-    - [start the actual runs](#start-the-actual-runs)
-    - [analyse the results](#analyse-the-results)
+  - [Cut-off range optimization](#cut-off-range-optimization)
+    - [Prepare cut-off range optimization](#prepare-cut-off-range-optimization)
+    - [Run cut-off range optimization](#run-cut-off-range-optimization)
+    - [Determine optimal cut-off ranges](#determine-optimal-cut-off-ranges)
+  - [Actual AMIGO runs](#actual-amigo-runs)
+    - [Prepare the folders for the actual runs](#prepare-the-folders-for-the-actual-runs)
+    - [Start the actual runs](#start-the-actual-runs)
+    - [Analyse the results](#analyse-the-results)
 - [Tutorial on how to use AMIGO with PCSs on the GTB example on a Linux system](#tutorial-on-how-to-use-amigo-with-pcss-on-the-gtb-example-on-a-linux-system)
-  - [prepare the files](#prepare-the-files)
-    - [start the actual runs](#start-the-actual-runs-1)
-    - [analyse the results](#analyse-the-results-1)
+  - [Prepare the files](#prepare-the-files)
+    - [Start the actual runs](#start-the-actual-runs-1)
+    - [Analyse the results](#analyse-the-results-1)
 
-# install AMIGO
+# Install AMIGO
 Here you will find information on how to set up AMIGO on a Linux or Mac (Sonoma 14.1.1) system. Make sure you have installed git. If not, do so by using the follwoing command:
 ```
 sudo apt-get install git
@@ -49,8 +54,8 @@ mamba install click
 ```
 
 # Tutorial on how to use AMIGO without PCSs on the LmUGP example on a Linux system
-## cut-off range optimization
-### prepare cut-off range optimization
+## Cut-off range optimization
+### Prepare cut-off range optimization
 Operate from inside the `Tutorial_no_PCSs_LmUGP` folder.
 
 If you have your own data set, make sure that the data folder contains the according `noe.txt`, `additional_measure.txt`, `additional_xtal.txt`, and `preassignments.txt` file as in the `data` folder. `additional_measure.txt`, `additional_xtal.txt`, and `preassignments.txt` are optional. However, the files have to be present. For `additional_measure.txt`, `additional_xtal.txt` you can put a single line in there containing `0	0	0	0	0	0`. `preassignments.txt` can be left completely empty.
@@ -129,7 +134,7 @@ python AMIGO_non_interactive.py \
 For the other folders (`7-5`, `8`, `8-5`, ...) change the maximal cut-off distance parameters accordingly, too (e.g., for `10` use `max_met 10`, `max_ile 10`, `max_leu 10`, ...). Make also sure to set `percentage_starting_points` to `0.1` and to choose the right labeling scheme for val and leu. If you have racemic mixtures use `both`. If you have proR labeling use `proR`. If you haven't labeled a particular amino acid type, e.g., THR, use `0`, `0`, `1` for `min_thr`, `max_thr`, and `step_thr`, respectively.
 
 
-### run cut-off range optimization
+### Run cut-off range optimization
 To run the cut-off optimization, run
 ```
 cd ./7
@@ -149,7 +154,7 @@ bash AMIGO_non_interactive.sh
 
 ```
 
-### determine optimal cut-off ranges
+### Determine optimal cut-off ranges
 If all jobs are finished you can extract the number of total assignments and the number of perfectly matching building blocks by using
 
 ```
@@ -164,8 +169,8 @@ and calculate the ratio (e.g. in an excel or libre office file). Replace the "7"
 
 The three best cut-off ranges based on the ratio should be the ones having 7, 7.5, and 8 Angstroem as maximal cut-off distance. The best one should be 7.5 Angstroem.
 
-## actual AMIGO runs
-### prepare the folders for the actual runs
+## Actual AMIGO runs
+### Prepare the folders for the actual runs
 Create a folder for the actual AMIGO runs.
 ```
 mkdir p=1
@@ -219,7 +224,7 @@ python AMIGO_non_interactive.py \
 
 The only parameter that is different is `percentage_starting_points` which was `0.1` before and which we changed to `1`. Do the same thing for `7-5` and `8` accordingly.
 
-### start the actual runs
+### Start the actual runs
 Strat the actual runs by navigating into the `p=1` folder  
 ```
 cd p\=1
@@ -235,7 +240,7 @@ bash AMIGO_non_interactive.sh
 cd ./../8
 ```
 
-### analyse the results
+### Analyse the results
 If you want to go through the methyl walks yourself, it is recommended to use the run with the optimal cut-off range (here, these methyl walks would be in the `result.txt` file in the `7-5` folder (based on the ratio calculated in the cut-off range optimization steps)). The files `G_NMR.svg` and `G_pdb.svg` contain the NOE and structure-based networks. You can try to follow the methyl walks in `result.txt` in these networks.
 
 
@@ -263,7 +268,7 @@ The folder structure and files should look similar to `LmUGP_without_PCS` in the
 Operate from inside the `Tutorial_PCS_GTB` folder.
 
 
-## prepare the files
+## Prepare the files
 Using PCS makes AMIGO very robust in terms of cut-off range choices. We recomment to use three runs using 3 Angstroem as minimal cut-off distance, 8, 8.5 and 9 Angstroem as maximal cut-off distance, and a step size of 0.2 Angstroem for all labeled amino acids. Prepare all input files according to the files in the `data` folder. 
 
 If you have your own data set, make sure that the data folder contains the according `noe.txt` (explanations given in the tutorial on how to use AMIGO without PCSs), `additional_measure.txt`, `additional_xtal.txt`, and `preassignments.txt` file as in the `Tutorial_PCS_GTB` folder. `preassignments.txt` are optional and you can leave it empty. However, the (empty) file has to be present. 
@@ -319,7 +324,7 @@ python AMIGO_non_interactive.py \
 
 For the other folders (`8-5` and `9`) change the maximal cut-off distance parameters accordingly, too (e.g., for `9` use `max_met 9`, `max_ile 9`, `max_leu 9`, ...). Make also sure to set `percentage_starting_points` to `1` and to choose the right labeling scheme for val and leu. If you have racemic mixtures use `both`. If you have proR labeling use `proR`. If you haven't labeled a particular amino acid type, e.g., THR, use `0`, `0`, `1` for `min_thr`, `max_thr`, and `step_thr`, respectively. Also note that we have set the weight factors for additional restraints `weight_additional_resraint1`, `weight_additional_resraint2`, and `weight_additional_resraint3` to `100`. `100` is a good value for PCSs used here. The differences between measured and theoretical PCSs times the according weight factor should be in the 10^0 to 10^1 range.
 
-### start the actual runs
+### Start the actual runs
 Strat the actual runs by using:
 
 ```
@@ -330,7 +335,7 @@ bash AMIGO_non_interactive.sh
 cd ./../9
 ```
 
-### analyse the results
+### Analyse the results
 You can find the methyl walks annotated with the corresponding PCSs in the `result.txt` files of the respecitve folders (`8`, `8-5`, and `9`). The folders will also contain a file named `additional_restraints.svg` showing correlation plots of theoretical and measured PCSs based on the assignment. If the assignment is reasonably good, they should be linaerly correlated. The files `G_NMR.svg` and `G_pdb.svg` contain the NOE and structure-based networks. You can try to follow the methyl walks in `result.txt` in these networks. If you want to consider only very safe assignments, you should only use assignments shared in the three runs. To do so, you can use the `compare.py` script in the Tutorial folder.
 
 ```

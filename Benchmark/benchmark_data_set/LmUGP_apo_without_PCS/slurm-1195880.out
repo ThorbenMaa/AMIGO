@@ -1,0 +1,189 @@
+start
+progress:  0  %
+progress:  3  %
+progress:  6  %
+progress:  9  %
+progress:  12  %
+progress:  15  %
+progress:  100  %
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/7/AMIGO_non_interactive.py", line 1775, in <module>
+    cli()
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/7/AMIGO_non_interactive.py", line 916, in cli
+    nx.draw(H, pos=nx.spring_layout(H),  with_labels=True, font_size=8 , node_color=color_map, node_size=800, width=0.2)
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/networkx/drawing/nx_pylab.py", line 121, in draw
+    draw_networkx(G, pos=pos, ax=ax, **kwds)
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/networkx/drawing/nx_pylab.py", line 304, in draw_networkx
+    draw_networkx_nodes(G, pos, **node_kwds)
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/networkx/drawing/nx_pylab.py", line 437, in draw_networkx_nodes
+    node_collection = ax.scatter(
+                      ^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/matplotlib/__init__.py", line 1465, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/matplotlib/axes/_axes.py", line 4670, in scatter
+    self._parse_scatter_color_args(
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/matplotlib/axes/_axes.py", line 4499, in _parse_scatter_color_args
+    raise invalid_shape_exception(len(colors), xsize)
+ValueError: 'c' argument has 124 elements, which is inconsistent with 'x' and 'y' with size 125.
+progress:  0  %
+progress:  3  %
+progress:  6  %
+progress:  9  %
+progress:  12  %
+progress:  100  %
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/7-5/AMIGO_non_interactive.py", line 1775, in <module>
+    cli()
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/7-5/AMIGO_non_interactive.py", line 916, in cli
+    nx.draw(H, pos=nx.spring_layout(H),  with_labels=True, font_size=8 , node_color=color_map, node_size=800, width=0.2)
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/networkx/drawing/nx_pylab.py", line 121, in draw
+    draw_networkx(G, pos=pos, ax=ax, **kwds)
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/networkx/drawing/nx_pylab.py", line 304, in draw_networkx
+    draw_networkx_nodes(G, pos, **node_kwds)
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/networkx/drawing/nx_pylab.py", line 437, in draw_networkx_nodes
+    node_collection = ax.scatter(
+                      ^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/matplotlib/__init__.py", line 1465, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/matplotlib/axes/_axes.py", line 4670, in scatter
+    self._parse_scatter_color_args(
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/matplotlib/axes/_axes.py", line 4499, in _parse_scatter_color_args
+    raise invalid_shape_exception(len(colors), xsize)
+ValueError: 'c' argument has 119 elements, which is inconsistent with 'x' and 'y' with size 120.
+progress:  0  %
+progress:  3  %
+progress:  6  %
+progress:  9  %
+progress:  12  %
+progress:  15  %
+progress:  100  %
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/8/AMIGO_non_interactive.py", line 1775, in <module>
+    cli()
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/8/AMIGO_non_interactive.py", line 916, in cli
+    nx.draw(H, pos=nx.spring_layout(H),  with_labels=True, font_size=8 , node_color=color_map, node_size=800, width=0.2)
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/networkx/drawing/nx_pylab.py", line 121, in draw
+    draw_networkx(G, pos=pos, ax=ax, **kwds)
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/networkx/drawing/nx_pylab.py", line 304, in draw_networkx
+    draw_networkx_nodes(G, pos, **node_kwds)
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/networkx/drawing/nx_pylab.py", line 437, in draw_networkx_nodes
+    node_collection = ax.scatter(
+                      ^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/matplotlib/__init__.py", line 1465, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/matplotlib/axes/_axes.py", line 4670, in scatter
+    self._parse_scatter_color_args(
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/matplotlib/axes/_axes.py", line 4499, in _parse_scatter_color_args
+    raise invalid_shape_exception(len(colors), xsize)
+ValueError: 'c' argument has 125 elements, which is inconsistent with 'x' and 'y' with size 126.
+progress:  0  %
+progress:  3  %
+progress:  6  %
+progress:  9  %
+progress:  12  %
+progress:  15  %
+progress:  100  %
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/8-5/AMIGO_non_interactive.py", line 1775, in <module>
+    cli()
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/8-5/AMIGO_non_interactive.py", line 916, in cli
+    nx.draw(H, pos=nx.spring_layout(H),  with_labels=True, font_size=8 , node_color=color_map, node_size=800, width=0.2)
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/networkx/drawing/nx_pylab.py", line 121, in draw
+    draw_networkx(G, pos=pos, ax=ax, **kwds)
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/networkx/drawing/nx_pylab.py", line 304, in draw_networkx
+    draw_networkx_nodes(G, pos, **node_kwds)
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/networkx/drawing/nx_pylab.py", line 437, in draw_networkx_nodes
+    node_collection = ax.scatter(
+                      ^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/matplotlib/__init__.py", line 1465, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/matplotlib/axes/_axes.py", line 4670, in scatter
+    self._parse_scatter_color_args(
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/matplotlib/axes/_axes.py", line 4499, in _parse_scatter_color_args
+    raise invalid_shape_exception(len(colors), xsize)
+ValueError: 'c' argument has 122 elements, which is inconsistent with 'x' and 'y' with size 123.
+/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/numpy/core/_methods.py:206: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/numpy/core/_methods.py:163: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/numpy/core/_methods.py:198: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+progress:  0  %
+progress:  3  %
+progress:  6  %
+progress:  9  %
+progress:  12  %
+progress:  100  %
+/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/numpy/core/_methods.py:206: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/numpy/core/_methods.py:163: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/numpy/core/_methods.py:198: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+progress:  0  %
+progress:  3  %
+progress:  6  %
+progress:  9  %
+progress:  12  %
+progress:  100  %
+slurmstepd-node24: error: *** JOB 1195880 ON node24 CANCELLED AT 2024-03-06T09:41:44 ***

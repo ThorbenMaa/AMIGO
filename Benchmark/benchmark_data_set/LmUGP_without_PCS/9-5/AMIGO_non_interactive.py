@@ -537,92 +537,12 @@ def cli (pdb_file, noe_file, additional_measure_file, additional_xtal_file, prea
     most_unique_aa_array=find_most_unique_aa(g_nmr, percentage_starting_points)
     pdb_array=create_pdb_array( met, ile, leu, val, ala, thr, pdb_file, val_scheme, leu_scheme)
 
-    """
-    Now comes the actual assignment. In this block of code, the assignment procedure with pre-assignments provided by the user as starting points for the methyls walk is done.
-    """
-    for i in range (0, len(pre_assignments), 1):
-        assignment_score=0
-        assignment_pair=[]
-        methyl_walk_array=[]
-        
-        #only important for i>0. loads previous assignments and partially reconstructed pdb and NMR based graphs.
-        if len(assignment_pair_array_all_solutions)>0:
-                for h in range (0, len(assignment_pair_array_all_solutions[-1]), 1):   
-                    assignment_pair.append(assignment_pair_array_all_solutions[-1][h])
-                    methyl_walk_array.append(methyl_walk_array_all_solutions[-1][h])
-        
-        #looks for pre-assignemnt provided by the user in the array of NMR based most unqiue buliding blocks and in the array of pdb metyhl goups. Results are array with assigned pdb methyl groups (it can have more than one element if the protein of interest is a multimer) and building block of assigned methyl group resonance. 
-        assigned_NMR='not found'
-        assigned_pdb='not found'
-        for j in range (0, len(most_unique_aa_array), 1):
-            if most_unique_aa_array[j][0][0][1]==pre_assignments[i].split()[1]:
-                assigned_NMR=most_unique_aa_array[j]
-        if assigned_NMR!='not found':
-            for j in range (0, len(pdb_array), 1):
-                if pdb_array[j][1]==pre_assignments[i].split()[3]:
-                    assigned_pdb= [pdb_array[j]]  
-
-        #creates array with pdb based building blocks corresponding to an already assigned pdb methyl group.
-        assigned_pdb_with_neighbors= calc_distance_between_int_aa_pdb_to_all_aa_pdb (pdb_array, d_array, assigned_pdb, val_scheme, leu_scheme)
-        
-        #Tests which building block of the pdb based building blocks corresponding to the user provided assigned pdb methyl group matches the NMR based building block of the user provided assigned methyl group resonance best and assignes them to each other. Starts/continues reconstruction of NMR and pdb based graphes with the identified building blocks. Starts a methyl walk from this assignment pair. Calculates comparison score of that assignemnt pair. If no assignment pair can be identified the best_fit method returns 'stop' and the methylwalk stops.
-        if best_fit(assigned_pdb_with_neighbors, assigned_NMR,chemShift_PRE_PCS_RDC_array_measure, chemShift_PRE_PCS_RDC_array_xtal, weightArray,penalty_array)!='stop':
-            assignment_pair.append(best_fit(assigned_pdb_with_neighbors, assigned_NMR,chemShift_PRE_PCS_RDC_array_measure, chemShift_PRE_PCS_RDC_array_xtal, weightArray,penalty_array)[0:2])
-            methyl_walk_array.append('start')
-            assignment_score=assignment_score+best_fit(assigned_pdb_with_neighbors, assigned_NMR,chemShift_PRE_PCS_RDC_array_measure, chemShift_PRE_PCS_RDC_array_xtal, weightArray,penalty_array)[2]
-            
-            #continue methyl walk until no more assignments can be identified
-            p=0
-            while len(assignment_pair)>p:
-                p=len(assignment_pair)
-                
-                #creates array with all NMR based building blocks corresponding to nodes in the partially reconstructed NMR based graph that are not already assigned.
-                int_aa_umgebung_nmr=[]
-                for j in range (0, len(assignment_pair), 1):
-                    int_aa_umgebung_nmr=int_aa_umgebung_nmr+find_neighbors_of_assigned_nmr(assignment_pair, g_nmr, assignment_pair[j])
-                
-                #sorts array from previous step by their uniquenes score.
-                most_unique_aa_umgebung_array=find_most_unique_aa_in_neighbors (int_aa_umgebung_nmr)
-                
-                #starts with the most unique NMR based building block.
-                for k in range (0, len(most_unique_aa_umgebung_array), 1):
-                    pos='not found'
-                    
-                    #looks for a node within this NMR building block that is already assigned. Memorizes pdb building block corresponding to the node in the partially reconstructed pdb based graph the NMR node is assigned to. Important for the methyl walk.
-                    most_unique_aa_umgebung=most_unique_aa_umgebung_array[k]
-                    for h in range (0, len (assignment_pair), 1):
-                        for r in range (0, len(assignment_pair[h][0][0]), 1):                      
-                            if assignment_pair[h][0][0][r][3]==most_unique_aa_umgebung_array[k][0][0][1]:
-                                pos=h
-                                break
-                    
-                    #creates an array with pdb methyl groups and their positions. The included methyl groups correspond to nodes of the in the previous step identified pdb building block that are not already assigned. Important for the methyl walk.
-                    int_aa_umgebung_crystal_pdb=find_neighbors_of_assigned_aa_crystal (assignment_pair, pdb_array, assignment_pair[pos], most_unique_aa_umgebung)
-                    
-                    #creates array with pdb based building blocks corresponding to the in the previous step idetified pdb methyl groups.
-                    int_aa_umgebung_crystal=calc_distance_between_int_aa_pdb_to_all_aa_pdb (pdb_array, d_array, int_aa_umgebung_crystal_pdb, val_scheme, leu_scheme)
-                    
-                    #Tests which building block of the pdb based building blocks matches the most unique NMR based building block best and assignes the corresponding nodes to each other. Continues reconstruction of NMR and pdb based graphes with the identified building blocks. Continues methyl walk with the identified building blocks. Calculates comparison score of these building blocks and adds it to the overall assignment score. If no assignment pair can be identified the best_fit method returns 'stop'. Then the second most unique building block will be tested
-                    if best_fit(int_aa_umgebung_crystal, most_unique_aa_umgebung,chemShift_PRE_PCS_RDC_array_measure, chemShift_PRE_PCS_RDC_array_xtal, weightArray, penalty_array)!='stop':
-                        assignment_pair.append(best_fit(int_aa_umgebung_crystal, most_unique_aa_umgebung,chemShift_PRE_PCS_RDC_array_measure, chemShift_PRE_PCS_RDC_array_xtal, weightArray, penalty_array)[0:2])
-                        methyl_walk_array.append(methyl_walk_array[pos] + ' => ' + assignment_pair[pos][0][0][0][0]+' '+assignment_pair[pos][0][0][0][1] + ' // ' + assignment_pair[pos][1][0][0]+' '+assignment_pair[pos][1][0][1])
-                        assignment_score=assignment_score+best_fit(int_aa_umgebung_crystal, most_unique_aa_umgebung,chemShift_PRE_PCS_RDC_array_measure, chemShift_PRE_PCS_RDC_array_xtal, weightArray, penalty_array)[2]
-                        break
-
-        #memorize methyl walk.
-        methyl_walk_array_all_solutions.append(methyl_walk_array)
-        
-        #memorize partially reconstructed NMR and pdb based graphs.
-        assignment_pair_array_all_solutions.append(assignment_pair)
-        
-        #memorize overall assignment score of assignment pairs in partially reconstructed NMR and pdb based graphs.
-        assignment_score_array.append(assignment_score)
 
     """
-    Assignment is continued. In this block of code, the assignment procedure with the remaining NMR building blocks as starting points for the methyls walk is done.
+    Assignment is started. In this block of code, the assignment procedure with the (remaining) NMR building blocks as starting points for the methyls walk is done.
     """
-    for l in range (0, 33, 1):
-        print ('progress: ', l*3, ' %')
+    for l in range (0, len(most_unique_aa_array), 1):
+        print ('progress: ', l//len(most_unique_aa_array), ' %')
         cluster_number=cluster_number+1       
         best_assignment_pair=[]
         best_methyl_walk_array=[]
@@ -644,17 +564,38 @@ def cli (pdb_file, noe_file, additional_measure_file, additional_xtal_file, prea
                     assignment_pair.append(assignment_pair_array_all_solutions[-1][h])
                     methyl_walk_array.append(methyl_walk_array_all_solutions[-1][h])
             
-            #checks if the certain NMR building block that is now regarded as starting point is already assigned. If yes, it won't be considered
+            #looks for pre-assignemnt provided by the user in the array of NMR based most unqiue buliding blocks and in the array of pdb metyhl goups. Results are array with assigned pdb methyl groups (it can have more than one element if the protein of interest is a multimer) and building block of assigned methyl group resonance. 
             most_unique_aa=most_unique_aa_array[g]
+            assigned_NMR='not found'
+            assigned_pdb='not found'
+            for j in range (0, len(pre_assignments), 1):
+                if most_unique_aa[0][0][1]==pre_assignments[j].split()[1]:
+                    assigned_NMR=pre_assignments[j]
+            if assigned_NMR!='not found':
+                for j in range (0, len(pdb_array), 1):
+                    if pdb_array[j][1]==assigned_NMR.split()[3]:
+                        assigned_pdb= [pdb_array[j]]  
+             
+            #checks if the certain NMR building block that is now regarded as starting point is already assigned. If yes, it won't be considered
+            #most_unique_aa=most_unique_aa_array[g]
             for o in range (0, len(assignment_pair), 1):
-                if assignment_pair[o][0][0][0][1]==most_unique_aa_array[g][0][0][1]:
+                if assignment_pair[o][0][0][0][1]==most_unique_aa[0][0][1]:
                     most_unique_aa=[]
+             
+            # if most uniq NMR builiding block is pre-assigned
+            if assigned_NMR!='not found' and assigned_pdb!='not found':
+                
+                #creates array with pdb building blocks of assigned pdb methyl group indentified in the previous step.
+                int_aa=calc_distance_between_int_aa_pdb_to_all_aa_pdb (pdb_array, d_array, assigned_pdb, val_scheme, leu_scheme)
             
-            #identify all pdb methyl groups with the same amino acid type as the node corresponding to the NMR building block that is now regarded as starting point. Result is an array with the corresponding pdb methyl groups and their positions. Alredy assigned ones are excluded.
-            int_aa_pdb=find_aa_with_aa_type_of_most_unique_aa_in_pdb (most_unique_aa, pdb_array, assignment_pair)
-            
-            #creates array with pdb building blocks of pdb methyl groups indentified in the previous step.
-            int_aa=calc_distance_between_int_aa_pdb_to_all_aa_pdb (pdb_array, d_array, int_aa_pdb, val_scheme, leu_scheme)
+            #if not preassigned
+            else:
+                
+                #identify all pdb methyl groups with the same amino acid type as the node corresponding to the NMR building block that is now regarded as starting point. Result is an array with the corresponding pdb methyl groups and their positions. Alredy assigned ones are excluded.
+                int_aa_pdb=find_aa_with_aa_type_of_most_unique_aa_in_pdb (most_unique_aa, pdb_array, assignment_pair)
+                
+                #creates array with pdb building blocks of pdb methyl groups indentified in the previous step.
+                int_aa=calc_distance_between_int_aa_pdb_to_all_aa_pdb (pdb_array, d_array, int_aa_pdb, val_scheme, leu_scheme)
             
             #Tests which building block of the pdb based building blocks matches the NMR based building block regarded as starting point best and assignes the corresponding nodes to each other. Starts/continues reconstruction of NMR and pdb based graphes with the identified building blocks. Starts new methyl walk with the identified building blocks. Calculates comparison score of these building blocks and adds it to the overall assignment score. If no assignment pair can be identified the best_fit method returns 'stop'. Then the second most unique building block will be tested
             if best_fit(int_aa, most_unique_aa,chemShift_PRE_PCS_RDC_array_measure, chemShift_PRE_PCS_RDC_array_xtal, weightArray, penalty_array)!='stop':
@@ -686,12 +627,32 @@ def cli (pdb_file, noe_file, additional_measure_file, additional_xtal_file, prea
                                 if assignment_pair[h][0][0][r][3]==most_unique_aa_umgebung_array[k][0][0][1]:
                                     pos=h
                                     break
-                                
-                        #creates an array with pdb methyl groups and their positions. The included methyl groups correspond to nodes of the in the previous step identified pdb building block that are not already assigned. Important for the methyl walk.
-                        int_aa_umgebung_crystal_pdb=find_neighbors_of_assigned_aa_crystal (assignment_pair, pdb_array, assignment_pair[pos], most_unique_aa_umgebung)
+
+                        #looks for pre-assignemnt provided by the user in the array of NMR based most unqiue buliding blocks and in the array of pdb metyhl goups. Results are array with assigned pdb methyl groups (it can have more than one element if the protein of interest is a multimer) and building block of assigned methyl group resonance. 
+                        #most_unique_aa=most_unique_aa_array[g]
+                        assigned_NMR='not found'
+                        assigned_pdb='not found'
+                        for j in range (0, len(pre_assignments), 1):
+                            if most_unique_aa_umgebung[0][0][1]==pre_assignments[j].split()[1]:
+                                assigned_NMR=pre_assignments[j]
+                        if assigned_NMR!='not found':
+                            for j in range (0, len(pdb_array), 1):
+                                if pdb_array[j][1]==assigned_NMR.split()[3]:
+                                    assigned_pdb= [pdb_array[j]]  
                         
-                        #creates array with pdb based building blocks corresponding to the in the previous step idetified pdb methyl groups.
-                        int_aa_umgebung_crystal=calc_distance_between_int_aa_pdb_to_all_aa_pdb (pdb_array, d_array, int_aa_umgebung_crystal_pdb, val_scheme, leu_scheme)
+                         # if most uniq NMR builiding block is pre-assigned
+                        if assigned_NMR!='not found' and assigned_pdb!='not found':
+                            
+                            #creates array with pdb building blocks of pdb methyl groups indentified in the previous step.
+                            int_aa_umgebung_crystal=calc_distance_between_int_aa_pdb_to_all_aa_pdb (pdb_array, d_array, assigned_pdb, val_scheme, leu_scheme)
+                        
+                        #if not preassigned
+                        else:
+                            #creates an array with pdb methyl groups and their positions. The included methyl groups correspond to nodes of the in the previous step identified pdb building block that are not already assigned. Important for the methyl walk.
+                            int_aa_umgebung_crystal_pdb=find_neighbors_of_assigned_aa_crystal (assignment_pair, pdb_array, assignment_pair[pos], most_unique_aa_umgebung)
+                            
+                            #creates array with pdb based building blocks corresponding to the in the previous step idetified pdb methyl groups.
+                            int_aa_umgebung_crystal=calc_distance_between_int_aa_pdb_to_all_aa_pdb (pdb_array, d_array, int_aa_umgebung_crystal_pdb, val_scheme, leu_scheme)
                         
                         #Tests which building block of the pdb based building blocks matches the most unique NMR based building block best and assignes the corresponding nodes to each other. Continues reconstruction of NMR and pdb based graphes with the identified building blocks. Continues methyl walk with the identified building blocks. Calculates comparison score of these building blocks and adds it to the overall assignment score. If no assignment pair can be identified the best_fit method returns 'stop'. Then the second most unique building block will be tested
                         if best_fit(int_aa_umgebung_crystal, most_unique_aa_umgebung,chemShift_PRE_PCS_RDC_array_measure, chemShift_PRE_PCS_RDC_array_xtal, weightArray, penalty_array)!='stop':
@@ -743,7 +704,7 @@ def cli (pdb_file, noe_file, additional_measure_file, additional_xtal_file, prea
     d_array_val=[]
     d_array_ala=[]
     d_array_thr=[]
-    if assignment_pair_array_all_solutions[0]==[] and len(assignment_pair_array_all_solutions==1):
+    if assignment_pair_array_all_solutions[0]==[] and len(assignment_pair_array_all_solutions)==1:
         print ("No assignments identified (that's the reason of the error message)- sorry!")
 
     total_amount_ass=0
@@ -898,16 +859,18 @@ def cli (pdb_file, noe_file, additional_measure_file, additional_xtal_file, prea
     for node in H:
         if node.split()[0]=='MET':
             color_map.append('red')
-        if node.split()[0]=='ILE':
+        elif node.split()[0]=='ILE':
             color_map.append('orange')
-        if node.split()[0]=='LEU':
+        elif node.split()[0]=='LEU':
             color_map.append('yellow')
-        if node.split()[0]=='VAL':
+        elif node.split()[0]=='VAL':
             color_map.append('blue')
-        if node.split()[0]=='ALA':
+        elif node.split()[0]=='ALA':
             color_map.append('cyan')
-        if node.split()[0]=='THR':
+        elif node.split()[0]=='THR':
             color_map.append('green')
+        else:
+            color_map.append('grey')
 
 
     nx.draw(H, pos=nx.spring_layout(H),  with_labels=True, font_size=8 , node_color=color_map, node_size=800, width=0.2)
@@ -933,16 +896,18 @@ def cli (pdb_file, noe_file, additional_measure_file, additional_xtal_file, prea
     for node in H:
         if node.split()[0]=='MET':
             color_map.append('red')
-        if node.split()[0]=='ILE':
+        elif node.split()[0]=='ILE':
             color_map.append('orange')
-        if node.split()[0]=='LEU':
+        elif node.split()[0]=='LEU':
             color_map.append('yellow')
-        if node.split()[0]=='VAL':
+        elif node.split()[0]=='VAL':
             color_map.append('blue')
-        if node.split()[0]=='ALA':
+        elif node.split()[0]=='ALA':
             color_map.append('cyan')
-        if node.split()[0]=='THR':
+        elif node.split()[0]=='THR':
             color_map.append('green')
+        else:
+            color_map.append('grey')
 
     nx.draw(H, pos=nx.spring_layout(H),  with_labels=True, font_size=8 , node_color=color_map, node_size=800, width=0.2)
     fig.savefig('G_pdb.svg')   

@@ -715,6 +715,18 @@ additional theoretical restraints are [additional restraint 1, 2, 3 and 4]     :
 
 
 
+methyl walk (NMR//pdb)                   :     start => MET 89 // MET 89 => THR 381 // THR 381 => ALA 383 // ALA 383 => LEU 416 // LEU 416 => LEU 430 // LEU 430 => VAL 450 // VAL 450 => ILE 475 // ILE 464 => ALA 486 // ALA 486
+was extened with methyl group resonance  :     THR 485  with NOEs to resonances THR 445 / THR 463 / 
+and thereby assigned to pdb methyl group :     THR 463 with expected NOEs to   THR 445 / THR 485 /  applying a cut-off distance of 4.6000000000000005 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 89 // MET 89 => THR 381 // THR 381 => ALA 383 // ALA 383 => LEU 416 // LEU 416 => LEU 430 // LEU 430 => VAL 450 // VAL 450 => ILE 475 // ILE 464 => ALA 486 // ALA 486 => THR 485 // THR 463
+was extened with methyl group resonance  :     THR 463  with NOEs to resonances THR 445 / THR 485 / 
+and thereby assigned to pdb methyl group :     THR 485 with expected NOEs to   THR 463 / ALA 486 / THR 492 /  applying a cut-off distance of 6.0 Amgstroem  
+
+
+
 methyl walk (NMR//pdb)                   :     start => MET 89 // MET 89 => THR 381 // THR 381 => ALA 383 // ALA 383 => LEU 416 // LEU 416 => LEU 430 // LEU 430 => VAL 450 // VAL 450 => ILE 475 // ILE 464 => ALA 486 // ALA 486 => LEU 481 // LEU 481
 was extened with methyl group resonance  :     THR 484  with NOEs to resonances VAL 462 / LEU 481 / ALA 486 / 
 and thereby assigned to pdb methyl group :     THR 484 with expected NOEs to   VAL 462 / LEU 481 / ALA 486 /  applying a cut-off distance of 5.0 Amgstroem  
@@ -749,9 +761,9 @@ methyl walk (NMR//pdb)                   :     start => MET 89 // MET 89 => THR 
 was extened with methyl group resonance  :     VAL 439  with NOEs to resonances ALA 392 / 
 and thereby assigned to pdb methyl group :     VAL 439 with expected NOEs to   ALA 392 /  applying a cut-off distance of 5.4 Amgstroem  
 
-amount of assignments in cluster                  : 28
-amount of perfectly matching building block pairs : 10
-Cluster Score  :      161.0 of 216.0
+amount of assignments in cluster                  : 30
+amount of perfectly matching building block pairs : 11
+Cluster Score  :      168.0 of 224.0
 
 cluster       :      2
 
@@ -920,11 +932,11 @@ amount of assignments in cluster                  : 1
 amount of perfectly matching building block pairs : 0
 Cluster Score  :      1.0 of 10.0
 
-total amount of assignments                             : 122
-total amount of perfectly matching building block pairs: 51
+total amount of assignments                             : 124
+total amount of perfectly matching building block pairs: 52
 total ratio of perfectly matching building block pairs to toal assignments for MET: 5 / 12
 total ratio of perfectly matching building block pairs to toal assignments for ILE: 5 / 14
 total ratio of perfectly matching building block pairs to toal assignments for LEU: 10 / 39
 total ratio of perfectly matching building block pairs to toal assignments for VAL: 12 / 23
 total ratio of perfectly matching building block pairs to toal assignments for ALA: 10 / 20
-total ratio of perfectly matching building block pairs to toal assignments for THR: 9 / 14
+total ratio of perfectly matching building block pairs to toal assignments for THR: 10 / 16
