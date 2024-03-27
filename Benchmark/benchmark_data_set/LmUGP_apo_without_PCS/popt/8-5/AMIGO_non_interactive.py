@@ -581,6 +581,7 @@ def cli (pdb_file, noe_file, additional_measure_file, additional_xtal_file, prea
             for o in range (0, len(assignment_pair), 1):
                 if assignment_pair[o][0][0][0][1]==most_unique_aa[0][0][1]:
                     most_unique_aa=[]
+                    break
              
             # if most uniq NMR builiding block is pre-assigned
             if assigned_NMR!='not found' and assigned_pdb!='not found':

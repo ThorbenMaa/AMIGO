@@ -38,7 +38,7 @@ define input parameters
     multiple=False,
     type=int,
     default=5,
-    help="minimal cluster size to consider a particular cluster for assigning methyl groups",
+    help="clusters with sizes smaller than or equal min_cluster_size will be excluded",
 )
 def cli (results_files, outfile_name, min_cluster_size, noe_file):
     if len(results_files)!=3:

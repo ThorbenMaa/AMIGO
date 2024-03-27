@@ -1,0 +1,71 @@
+start
+progress:  0  %
+215
+475
+358
+194
+38
+321
+89
+362
+19
+235
+128
+333
+53
+356
+486
+369
+progress:  0  %
+215
+['ALA', '486', 'VAL', '450']
+['ILE', '475', 'LEU', '58']
+['ILE', '464', 'LEU', '58']
+['ALA', '479', 'ILE', '475']
+['THR', '484', 'VAL', '462']
+['THR', '485', 'THR', '445']
+['THR', '463', 'THR', '445']
+['LEU', '458', 'LEU', '58']
+['VAL', '446', 'LEU', '58']
+['VAL', '462', 'LEU', '458']
+['VAL', '450', 'ILE', '464']
+['LEU', '481', 'ILE', '464']
+['LEU', '58', 'LEU', '259']
+['ALA', '368', 'LEU', '58']
+['VAL', '246', 'LEU', '259']
+['MET', '244', 'LEU', '259']
+['LEU', '282', 'MET', '244']
+['ALA', '358', 'ILE', '47']
+['MET', '362', 'LEU', '281']
+['ILE', '333', 'LEU', '282']
+['LEU', '328', 'THR', '320']
+['MET', '321', 'ALA', '27']
+['THR', '196', 'ALA', '27']
+['ILE', '360', 'MET', '244']
+['LEU', '330', 'ILE', '312']
+['LEU', '259', 'VAL', '55']
+['LEU', '310', 'MET', '244']
+['MET', '356', 'LEU', '79']
+['ILE', '194', 'LEU', '79']
+['MET', '215', 'VAL', '77']
+['MET', '128', 'VAL', '77']
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/PCS_data_sets/LmUGP_with_PCS/with_preassignments/8/AMIGO_non_interactive.py", line 1740, in <module>
+    cli()
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/PCS_data_sets/LmUGP_with_PCS/with_preassignments/8/AMIGO_non_interactive.py", line 585, in cli
+    if assignment_pair[o][0][0][0][1]==most_unique_aa[0][0][1]:
+                                       ~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+fertig

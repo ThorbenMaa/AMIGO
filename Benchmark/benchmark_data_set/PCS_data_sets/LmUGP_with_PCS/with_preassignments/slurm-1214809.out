@@ -1,0 +1,23 @@
+start
+progress:  0  %
+progress:  0  %
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/PCS_data_sets/LmUGP_with_PCS/with_preassignments/8/AMIGO_non_interactive.py", line 1737, in <module>
+    cli()
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/maass/.omics/mamba/envs/AMIGO/lib/python3.12/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/PCS_data_sets/LmUGP_with_PCS/with_preassignments/8/AMIGO_non_interactive.py", line 582, in cli
+    if assignment_pair[o][0][0][0][1]==most_unique_aa[0][0][1]:
+                                       ~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+slurmstepd-node24: error: *** JOB 1214809 ON node24 CANCELLED AT 2024-03-27T10:01:32 ***

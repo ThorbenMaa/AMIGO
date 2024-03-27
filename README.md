@@ -255,7 +255,7 @@ python compare.py \
 --results_files 7/results.txt \
 --results_files 7-5/results.txt \
 --results_files 8/results.txt \
---min_cluster_size 1 \
+--min_cluster_size 0 \
 --noe_file 7/noe.txt \
 --outfile_name shared_assignments.tsv
 ```
@@ -344,7 +344,7 @@ python compare.py \
 --results_files 8/results.txt \
 --results_files 8-5/results.txt \
 --results_files 9/results.txt \
---min_cluster_size 1 \
+--min_cluster_size 0 \
 --noe_file 8/noe.txt \
 --outfile_name shared_assignments.tsv
 ```
