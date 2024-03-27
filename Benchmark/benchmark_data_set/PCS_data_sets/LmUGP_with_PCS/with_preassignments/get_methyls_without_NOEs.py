@@ -10,7 +10,7 @@ define input parameters
     required=True,
     multiple=False,
     type=str,
-    default="shared_min_cluster_1.tsv",
+    default="shared_min_cluster_0.tsv",
     help="name of outfile",
 )
 @click.option(
@@ -19,7 +19,7 @@ define input parameters
     required=True,
     multiple=False,
     type=str,
-    default="ambiguous_shared_min_cluster_1.tsv",
+    default="ambiguous_shared_min_cluster_0.tsv",
     help="name of outfile",
 )
 @click.option(
@@ -28,7 +28,7 @@ define input parameters
     required=True,
     multiple=False,
     type=str,
-    default="unassigned_shared_min_cluster_1.tsv",
+    default="unassigned_shared_min_cluster_0.tsv",
     help="name of outfile",
 )
 @click.option(
