@@ -24,7 +24,7 @@ source /etc/profile.d/modules.sh
 
 # ADJUST DIRECTORY HERE!!!
 echo start
-
+start_time=`date +%s`
 cd ./7
 bash run_AMIGO.sh
 cd ./../7-5
@@ -42,7 +42,8 @@ bash run_AMIGO.sh
 cd ./../11
 bash run_AMIGO.sh
 
-
+end_time=`date +%s`
+echo execution time was `expr $end_time - $start_time` s.
 
 
 echo fertig 

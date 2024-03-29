@@ -541,8 +541,8 @@ def cli (pdb_file, noe_file, additional_measure_file, additional_xtal_file, prea
     """
     Assignment is started. In this block of code, the assignment procedure with the (remaining) NMR building blocks as starting points for the methyls walk is done.
     """
-    for l in range (0, len(most_unique_aa_array), 1):
-        print ('progress: ', l//len(most_unique_aa_array), ' %')
+    for l in range (0, len(g_nmr), 1):
+        print ('progress: ', l//len(g_nmr), ' %')
         cluster_number=cluster_number+1       
         best_assignment_pair=[]
         best_methyl_walk_array=[]
