@@ -1,0 +1,1378 @@
+start non-PCS data sets
+testing atcase_fix now...
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3991.794
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774557
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/atcase_fix/popt/7/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/atcase_fix/popt/7-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/atcase_fix/popt/8/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/atcase_fix/popt/8-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/atcase_fix/popt/9/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/atcase_fix/popt/9-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/atcase_fix/popt/10/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774560
+runtime 3
+fertig
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3992.064
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774560
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/atcase_fix/p=1/9/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/atcase_fix/p=1/10/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/atcase_fix/p=1/9-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774563
+runtime 3
+fertig
+testing EIN now...
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3996.602
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774563
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/EIN/popt/7/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/EIN/popt/7-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/EIN/popt/8/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/EIN/popt/8-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/EIN/popt/9/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/EIN/popt/9-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/EIN/popt/10/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774569
+runtime 6
+fertig
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3990.445
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774569
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/EIN/p=1/8/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/EIN/p=1/7/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/EIN/p=1/7-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774571
+runtime 2
+fertig
+testing HuNoV_Pdomain now...
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3991.718
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774572
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/HuNoV_Pdomain/popt/7/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/HuNoV_Pdomain/popt/7-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/HuNoV_Pdomain/popt/8/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/HuNoV_Pdomain/popt/8-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/HuNoV_Pdomain/popt/9/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/HuNoV_Pdomain/popt/9-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/HuNoV_Pdomain/popt/10/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774587
+runtime 15
+fertig
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3976.741
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774587
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/HuNoV_Pdomain/p=1/10/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+sbatch_test.sh: line 35: cd: ./9-5: No such file or directory
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/HuNoV_Pdomain/p=1/10/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/HuNoV_Pdomain/p=1/9/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774590
+runtime 3
+fertig
+testing LmUGP_apo_without_PCS now...
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3996.233
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774590
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/popt/7/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/popt/7-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/popt/8/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/popt/8-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/popt/9/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/popt/9-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/popt/10/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774599
+runtime 9
+fertig
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3991.330
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774600
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/p=1/7-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/p=1/8/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/LmUGP_apo_without_PCS/p=1/9-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774601
+runtime 1
+fertig
+testing mbp now...
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3991.587
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774602
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mbp/popt/10/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mbp/popt/7/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mbp/popt/7-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mbp/popt/8/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mbp/popt/8-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mbp/popt/9/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mbp/popt/9-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774611
+runtime 9
+fertig
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3991.896
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774611
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mbp/p=1/10/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mbp/p=1/9-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mbp/p=1/9/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774614
+runtime 3
+fertig
+testing mrsB now...
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3991.984
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774614
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mrsB/popt/7/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mrsB/popt/7-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mrsB/popt/8/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mrsB/popt/8-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mrsB/popt/9/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mrsB/popt/9-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mrsB/popt/10/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774622
+runtime 8
+fertig
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3983.671
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774622
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mrsB/p=1/7-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mrsB/p=1/10/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/mrsB/p=1/9-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774625
+runtime 3
+fertig
+testing msg now...
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3988.021
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774625
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/msg/popt/7/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/msg/popt/7-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/msg/popt/8/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/msg/popt/8-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/msg/popt/9/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/msg/popt/9-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/msg/popt/10/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774633
+runtime 8
+fertig
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3992.132
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774633
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/msg/p=1/9-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/msg/p=1/8-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/msg/p=1/9/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774636
+runtime 3
+fertig
+testing ubiquitin now...
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3980.802
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774637
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/ubiquitin/popt/7/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/ubiquitin/popt/7-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/ubiquitin/popt/8/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/ubiquitin/popt/8-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/ubiquitin/popt/9/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/ubiquitin/popt/9-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/ubiquitin/popt/10/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774642
+runtime 5
+fertig
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3991.447
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774644
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/ubiquitin/p=1/8/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/ubiquitin/p=1/7-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/ubiquitin/p=1/7/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774647
+runtime 3
+fertig
+testing a7a7 now...
+start a7a7 popt
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3990.490
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774647
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/a7a7/popt/7/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/a7a7/popt/7-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/a7a7/popt/8/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/a7a7/popt/8-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/a7a7/popt/9/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/a7a7/popt/9-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/a7a7/popt/10/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774654
+runtime 7
+fertig
+start a7a7 full
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3989.414
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774654
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/a7a7/p=1/10/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/a7a7/p=1/9/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/a7a7/p=1/8-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774655
+runtime 1
+fertig
+start PCSs data sets
+testing GTB now...
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3991.838
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774655
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/PCS_data_sets/GTB/8/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/PCS_data_sets/GTB/8-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/PCS_data_sets/GTB/9/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774656
+runtime 1
+fertig
+testing LmUGP_with_PCS now...
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3981.860
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774656
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/PCS_data_sets/LmUGP_with_PCS/8/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/PCS_data_sets/LmUGP_with_PCS/8-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/PCS_data_sets/LmUGP_with_PCS/9/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774660
+runtime 4
+fertig
+testing MNV_Pdomain_with_PCS now...
+start
+running on a
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             48
+On-line CPU(s) list:                0-47
+Thread(s) per core:                 2
+Core(s) per socket:                 24
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         25
+Model:                              1
+Model name:                         AMD EPYC 74F3 24-Core Processor
+Stepping:                           1
+Frequency boost:                    enabled
+CPU MHz:                            3991.818
+CPU max MHz:                        4037.5000
+CPU min MHz:                        1500.0000
+BogoMIPS:                           6387.32
+Virtualization:                     AMD-V
+L1d cache:                          768 KiB
+L1i cache:                          768 KiB
+L2 cache:                           12 MiB
+L3 cache:                           256 MiB
+NUMA node0 CPU(s):                  0-47
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+started 1712774660
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/PCS_data_sets/MNV_Pdomain_with_PCS/8/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/PCS_data_sets/MNV_Pdomain_with_PCS/8-5/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+Traceback (most recent call last):
+  File "/data/humangen_kircherlab/AMIGO_TM/AMIGO/Benchmark/benchmark_data_set/PCS_data_sets/MNV_Pdomain_with_PCS/9/AMIGO_non_interactive.py", line 8, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+ended 1712774661
+runtime 1
+fertig
+fertig

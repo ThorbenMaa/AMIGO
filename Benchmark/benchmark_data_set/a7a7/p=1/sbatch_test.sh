@@ -7,7 +7,7 @@
 #  Use one node:
 #SBATCH --nodes=1
 #  Request 4 cores (hard constraint):
-#SBATCH -c 32
+#SBATCH -c 16
 #  Request 50GB of memory (hard constraint):
 #SBATCH --mem=50GB
 #  Request one hour maximal execution time (hard constraint):
@@ -23,7 +23,13 @@ source /etc/profile.d/modules.sh
 
 
 # ADJUST DIRECTORY HERE!!!
-echo start
+echo start a7a7 full
+
+echo running on a
+lscpu
+
+start=`date +%s`
+echo started $start
 
 
 cd ./10
@@ -34,6 +40,10 @@ cd ./../8-5
 bash run_AMIGO.sh
 
 
+end=`date +%s`
+echo ended $end
 
+runtime=$((end-start))
+echo runtime $runtime
 
 echo fertig 
