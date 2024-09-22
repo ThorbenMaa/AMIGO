@@ -25,6 +25,13 @@ source /etc/profile.d/modules.sh
 # ADJUST DIRECTORY HERE!!!
 echo start
 
+echo running on a
+lscpu
+
+start=`date +%s`
+echo started $start
+
+
 cd ./9
 bash run_AMIGO.sh
 cd ./../9-5
@@ -33,11 +40,15 @@ bash run_AMIGO.sh
 #bash run_AMIGO.sh
 #cd ./../8-5
 #bash run_AMIGO.sh
-#cd ./../8
-#bash run_AMIGO.sh
+cd ./../8
+bash run_AMIGO.sh
 
 
+end=`date +%s`
+echo ended $end
 
+runtime=$((end-start))
+echo runtime $runtime
 
 
 echo fertig 

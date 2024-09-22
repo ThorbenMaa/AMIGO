@@ -1,0 +1,72 @@
+distance ranges for [M] [I] [L] [V] [A] [T] methyl groups: [[3.0, 3.2, 3.4000000000000004, 3.6, 3.8000000000000003, 4.0, 4.2, 4.4, 4.6000000000000005, 4.800000000000001, 5.0, 5.2, 5.4, 5.6000000000000005, 5.800000000000001, 6.0, 6.2, 6.4, 6.6000000000000005, 6.800000000000001, 7.0, 7.2, 7.4, 7.6000000000000005, 7.800000000000001, 8.0, 8.200000000000001, 8.4, 8.6, 8.8, 9.0, 9.200000000000001, 9.4, 9.600000000000001], [3.0, 3.2, 3.4000000000000004, 3.6, 3.8000000000000003, 4.0, 4.2, 4.4, 4.6000000000000005, 4.800000000000001, 5.0, 5.2, 5.4, 5.6000000000000005, 5.800000000000001, 6.0, 6.2, 6.4, 6.6000000000000005, 6.800000000000001, 7.0, 7.2, 7.4, 7.6000000000000005, 7.800000000000001, 8.0, 8.200000000000001, 8.4, 8.6, 8.8, 9.0, 9.200000000000001, 9.4, 9.600000000000001], [3.0, 3.2, 3.4000000000000004, 3.6, 3.8000000000000003, 4.0, 4.2, 4.4, 4.6000000000000005, 4.800000000000001, 5.0, 5.2, 5.4, 5.6000000000000005, 5.800000000000001, 6.0, 6.2, 6.4, 6.6000000000000005, 6.800000000000001, 7.0, 7.2, 7.4, 7.6000000000000005, 7.800000000000001, 8.0, 8.200000000000001, 8.4, 8.6, 8.8, 9.0, 9.200000000000001, 9.4, 9.600000000000001], [3.0, 3.2, 3.4000000000000004, 3.6, 3.8000000000000003, 4.0, 4.2, 4.4, 4.6000000000000005, 4.800000000000001, 5.0, 5.2, 5.4, 5.6000000000000005, 5.800000000000001, 6.0, 6.2, 6.4, 6.6000000000000005, 6.800000000000001, 7.0, 7.2, 7.4, 7.6000000000000005, 7.800000000000001, 8.0, 8.200000000000001, 8.4, 8.6, 8.8, 9.0, 9.200000000000001, 9.4, 9.600000000000001], [3.0, 3.2, 3.4000000000000004, 3.6, 3.8000000000000003, 4.0, 4.2, 4.4, 4.6000000000000005, 4.800000000000001, 5.0, 5.2, 5.4, 5.6000000000000005, 5.800000000000001, 6.0, 6.2, 6.4, 6.6000000000000005, 6.800000000000001, 7.0, 7.2, 7.4, 7.6000000000000005, 7.800000000000001, 8.0, 8.200000000000001, 8.4, 8.6, 8.8, 9.0, 9.200000000000001, 9.4, 9.600000000000001], [0.0]]
+
+weighting factors [w_NOE, w_1, w_2, w_3, w_4]            : [1.0, 0.0, 0.0, 0.0, 0.0]
+
+
+cluster       :      0
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     LEU 67  with NOEs to resonances VAL 31 / LEU 46 / VAL 52 / VAL 65 / ILE 83 / LEU 108 / ALA 112 / VAL 118 / 
+and thereby assigned to pdb methyl group :     LEU 67 with expected NOEs to   VAL 31 / LEU 46 / VAL 52 / VAL 65 / ILE 83 / LEU 108 / ALA 112 / VAL 118 /  applying a cut-off distance of 6.4 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => LEU 67 // LEU 67
+was extened with methyl group resonance  :     ALA 112  with NOEs to resonances LEU 46 / LEU 67 / ILE 83 / LEU 108 / ALA 111 / LEU 114 / VAL 118 / 
+and thereby assigned to pdb methyl group :     ALA 112 with expected NOEs to   LEU 46 / LEU 67 / ILE 83 / LEU 108 / ALA 111 / LEU 114 / VAL 118 /  applying a cut-off distance of 6.800000000000001 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => LEU 67 // LEU 67 => ALA 112 // ALA 112
+was extened with methyl group resonance  :     LEU 108  with NOEs to resonances VAL 52 / VAL 65 / LEU 67 / ILE 83 / ALA 85 / ILE 106 / ALA 112 / 
+and thereby assigned to pdb methyl group :     LEU 108 with expected NOEs to   VAL 52 / VAL 65 / LEU 67 / ILE 83 / ALA 85 / ILE 106 / ALA 112 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => LEU 67 // LEU 67 => ALA 112 // ALA 112
+was extened with methyl group resonance  :     ALA 111  with NOEs to resonances ILE 83 / ALA 112 / 
+and thereby assigned to pdb methyl group :     ALA 111 with expected NOEs to   ILE 83 / ALA 112 /  applying a cut-off distance of 6.800000000000001 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => LEU 67 // LEU 67 => ALA 112 // ALA 112
+was extened with methyl group resonance  :     LEU 46  with NOEs to resonances VAL 52 / LEU 67 / ALA 112 / LEU 114 / VAL 118 / ALA 119 / 
+and thereby assigned to pdb methyl group :     LEU 46 with expected NOEs to   VAL 52 / LEU 67 / ALA 112 / LEU 114 / VAL 118 / ALA 119 /  applying a cut-off distance of 6.4 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => LEU 67 // LEU 67 => ALA 112 // ALA 112 => LEU 46 // LEU 46
+was extened with methyl group resonance  :     ALA 119  with NOEs to resonances LEU 46 / LEU 114 / VAL 118 / 
+and thereby assigned to pdb methyl group :     ALA 119 with expected NOEs to   LEU 46 / LEU 114 / VAL 118 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => LEU 67 // LEU 67 => ALA 112 // ALA 112 => LEU 46 // LEU 46 => ALA 119 // ALA 119
+was extened with methyl group resonance  :     LEU 114  with NOEs to resonances LEU 46 / ALA 112 / VAL 118 / ALA 119 / 
+and thereby assigned to pdb methyl group :     LEU 114 with expected NOEs to   LEU 46 / ALA 112 / VAL 118 / ALA 119 /  applying a cut-off distance of 6.6000000000000005 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => LEU 67 // LEU 67 => ALA 112 // ALA 112 => ALA 111 // ALA 111
+was extened with methyl group resonance  :     ILE 83  with NOEs to resonances LEU 67 / LEU 108 / ALA 111 / ALA 112 / 
+and thereby assigned to pdb methyl group :     ILE 83 with expected NOEs to   LEU 67 / LEU 108 / ALA 111 / ALA 112 /  applying a cut-off distance of 6.800000000000001 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => LEU 67 // LEU 67 => ALA 112 // ALA 112 => LEU 46 // LEU 46 => ALA 119 // ALA 119 => LEU 114 // LEU 114
+was extened with methyl group resonance  :     VAL 118  with NOEs to resonances LEU 46 / LEU 67 / ALA 112 / LEU 114 / ALA 119 / 
+and thereby assigned to pdb methyl group :     VAL 118 with expected NOEs to   LEU 46 / LEU 67 / ALA 112 / LEU 114 / ALA 119 /  applying a cut-off distance of 7.0 Amgstroem  
+
+amount of assignments in cluster                  : 9
+amount of perfectly matching building block pairs : 9
+Cluster Score  :      92.0 of 92.0
+
+total amount of assignments                             : 9
+total amount of perfectly matching building block pairs: 9
+total ratio of perfectly matching building block pairs to toal assignments for MET: 0 / 0
+total ratio of perfectly matching building block pairs to toal assignments for ILE: 1 / 1
+total ratio of perfectly matching building block pairs to toal assignments for LEU: 4 / 4
+total ratio of perfectly matching building block pairs to toal assignments for VAL: 1 / 1
+total ratio of perfectly matching building block pairs to toal assignments for ALA: 3 / 3
+total ratio of perfectly matching building block pairs to toal assignments for THR: 0 / 0

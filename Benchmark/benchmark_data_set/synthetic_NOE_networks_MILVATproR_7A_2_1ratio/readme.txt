@@ -1,0 +1,3 @@
+- AMIGO was run as for the real data sets with parameter optimization and full runs
+- simulated NOE networks were produced using the simulate.sh, simulate_all.sh, and simulate_NOE_network.py scripts using a NOE cut.off of 7 Angstroem and randomly removing to make the NOE/methyl group ratio be <2.1 (as in MAUS paper)
+- the labeling scheme for synthetic NOE networks can be determined in simulate_NOE_network.py 

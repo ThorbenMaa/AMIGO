@@ -1,0 +1,586 @@
+distance ranges for [M] [I] [L] [V] [A] [T] methyl groups: [[3.0, 3.2, 3.4000000000000004, 3.6, 3.8000000000000003, 4.0, 4.2, 4.4, 4.6000000000000005, 4.800000000000001, 5.0, 5.2, 5.4, 5.6000000000000005, 5.800000000000001, 6.0, 6.2, 6.4, 6.6000000000000005, 6.800000000000001, 7.0, 7.2, 7.4, 7.6000000000000005, 7.800000000000001, 8.0], [3.0, 3.2, 3.4000000000000004, 3.6, 3.8000000000000003, 4.0, 4.2, 4.4, 4.6000000000000005, 4.800000000000001, 5.0, 5.2, 5.4, 5.6000000000000005, 5.800000000000001, 6.0, 6.2, 6.4, 6.6000000000000005, 6.800000000000001, 7.0, 7.2, 7.4, 7.6000000000000005, 7.800000000000001, 8.0], [3.0, 3.2, 3.4000000000000004, 3.6, 3.8000000000000003, 4.0, 4.2, 4.4, 4.6000000000000005, 4.800000000000001, 5.0, 5.2, 5.4, 5.6000000000000005, 5.800000000000001, 6.0, 6.2, 6.4, 6.6000000000000005, 6.800000000000001, 7.0, 7.2, 7.4, 7.6000000000000005, 7.800000000000001, 8.0], [3.0, 3.2, 3.4000000000000004, 3.6, 3.8000000000000003, 4.0, 4.2, 4.4, 4.6000000000000005, 4.800000000000001, 5.0, 5.2, 5.4, 5.6000000000000005, 5.800000000000001, 6.0, 6.2, 6.4, 6.6000000000000005, 6.800000000000001, 7.0, 7.2, 7.4, 7.6000000000000005, 7.800000000000001, 8.0], [3.0, 3.2, 3.4000000000000004, 3.6, 3.8000000000000003, 4.0, 4.2, 4.4, 4.6000000000000005, 4.800000000000001, 5.0, 5.2, 5.4, 5.6000000000000005, 5.800000000000001, 6.0, 6.2, 6.4, 6.6000000000000005, 6.800000000000001, 7.0, 7.2, 7.4, 7.6000000000000005, 7.800000000000001, 8.0], [0.0]]
+
+weighting factors [w_NOE, w_1, w_2, w_3, w_4]            : [1.0, 0.0, 0.0, 0.0, 0.0]
+
+
+cluster       :      0
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     MET 377  with NOEs to resonances ILE 333 / LEU 335 / VAL 346 / LEU 362 / LEU 392 / LEU 394 / VAL 405 / 
+and thereby assigned to pdb methyl group :     MET 377 with expected NOEs to   ILE 333 / LEU 335 / VAL 346 / LEU 362 / LEU 392 / LEU 394 / VAL 405 /  applying a cut-off distance of 6.4 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377
+was extened with methyl group resonance  :     LEU 335  with NOEs to resonances LEU 267 / MET 286 / ILE 333 / VAL 337 / VAL 346 / MET 377 / LEU 392 / VAL 405 / LEU 421 / 
+and thereby assigned to pdb methyl group :     LEU 335 with expected NOEs to   LEU 267 / MET 286 / ILE 333 / VAL 337 / VAL 346 / MET 377 / LEU 392 / VAL 405 / LEU 421 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335
+was extened with methyl group resonance  :     MET 286  with NOEs to resonances LEU 335 / VAL 337 / VAL 346 / LEU 362 / VAL 364 / LEU 421 / 
+and thereby assigned to pdb methyl group :     MET 286 with expected NOEs to   LEU 335 / VAL 337 / VAL 346 / LEU 362 / VAL 364 / LEU 421 /  applying a cut-off distance of 6.4 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335
+was extened with methyl group resonance  :     ILE 333  with NOEs to resonances ILE 314 / LEU 335 / MET 377 / ALA 379 / LEU 392 / 
+and thereby assigned to pdb methyl group :     ILE 333 with expected NOEs to   ILE 314 / LEU 335 / MET 377 / ALA 379 / LEU 392 /  applying a cut-off distance of 6.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => ILE 333 // ILE 333
+was extened with methyl group resonance  :     ALA 379  with NOEs to resonances LEU 251 / LEU 259 / ILE 314 / VAL 327 / ILE 333 / VAL 380 / VAL 390 / LEU 392 / 
+and thereby assigned to pdb methyl group :     ALA 379 with expected NOEs to   LEU 251 / LEU 259 / ILE 314 / VAL 327 / ILE 333 / VAL 380 / VAL 390 / LEU 392 /  applying a cut-off distance of 6.4 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => ILE 333 // ILE 333 => ALA 379 // ALA 379
+was extened with methyl group resonance  :     ILE 314  with NOEs to resonances LEU 259 / VAL 327 / ILE 333 / ALA 379 / LEU 392 / 
+and thereby assigned to pdb methyl group :     ILE 314 with expected NOEs to   LEU 259 / VAL 327 / ILE 333 / ALA 379 / LEU 392 /  applying a cut-off distance of 6.4 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => MET 286 // MET 286
+was extened with methyl group resonance  :     VAL 346  with NOEs to resonances MET 286 / LEU 335 / VAL 337 / ILE 345 / VAL 364 / MET 377 / 
+and thereby assigned to pdb methyl group :     VAL 346 with expected NOEs to   MET 286 / LEU 335 / VAL 337 / ILE 345 / VAL 364 / MET 377 /  applying a cut-off distance of 6.800000000000001 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => MET 286 // MET 286 => VAL 346 // VAL 346
+was extened with methyl group resonance  :     ILE 345  with NOEs to resonances VAL 346 / 
+and thereby assigned to pdb methyl group :     ILE 345 with expected NOEs to   VAL 346 /  applying a cut-off distance of 6.800000000000001 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => ILE 333 // ILE 333 => ALA 379 // ALA 379 => ILE 314 // ILE 314
+was extened with methyl group resonance  :     LEU 259  with NOEs to resonances LEU 251 / ILE 314 / VAL 327 / ALA 379 / VAL 390 / LEU 392 / 
+and thereby assigned to pdb methyl group :     LEU 259 with expected NOEs to   LEU 251 / ILE 314 / VAL 327 / ALA 379 / VAL 390 / LEU 392 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => MET 286 // MET 286
+was extened with methyl group resonance  :     LEU 362  with NOEs to resonances MET 286 / MET 377 / LEU 394 / VAL 405 / ALA 423 / 
+and thereby assigned to pdb methyl group :     LEU 362 with expected NOEs to   MET 286 / MET 377 / LEU 394 / VAL 405 / ALA 423 /  applying a cut-off distance of 6.2 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => MET 286 // MET 286 => LEU 362 // LEU 362
+was extened with methyl group resonance  :     ALA 423  with NOEs to resonances LEU 362 / LEU 394 / LEU 402 / VAL 405 / ILE 422 / 
+and thereby assigned to pdb methyl group :     ALA 423 with expected NOEs to   LEU 362 / LEU 394 / LEU 402 / VAL 405 / ILE 422 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => MET 286 // MET 286 => LEU 362 // LEU 362 => ALA 423 // ALA 423
+was extened with methyl group resonance  :     ILE 422  with NOEs to resonances ALA 423 / 
+and thereby assigned to pdb methyl group :     ILE 422 with expected NOEs to   ALA 423 /  applying a cut-off distance of 5.800000000000001 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => MET 286 // MET 286
+was extened with methyl group resonance  :     LEU 421  with NOEs to resonances LEU 267 / VAL 277 / MET 286 / LEU 288 / LEU 335 / VAL 405 / 
+and thereby assigned to pdb methyl group :     LEU 421 with expected NOEs to   LEU 267 / VAL 277 / MET 286 / LEU 288 / LEU 335 / VAL 405 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => MET 286 // MET 286 => LEU 362 // LEU 362 => ALA 423 // ALA 423
+was extened with methyl group resonance  :     LEU 394  with NOEs to resonances LEU 362 / MET 377 / LEU 402 / VAL 405 / ALA 423 / 
+and thereby assigned to pdb methyl group :     LEU 394 with expected NOEs to   LEU 362 / MET 377 / LEU 402 / VAL 405 / ALA 423 /  applying a cut-off distance of 6.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => ILE 333 // ILE 333 => ALA 379 // ALA 379 => ILE 314 // ILE 314 => LEU 259 // LEU 259
+was extened with methyl group resonance  :     LEU 251  with NOEs to resonances LEU 259 / ALA 379 / VAL 380 / VAL 390 / 
+and thereby assigned to pdb methyl group :     LEU 251 with expected NOEs to   LEU 259 / ALA 379 / VAL 380 / VAL 390 /  applying a cut-off distance of 6.800000000000001 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => MET 286 // MET 286 => LEU 362 // LEU 362 => ALA 423 // ALA 423 => LEU 394 // LEU 394
+was extened with methyl group resonance  :     LEU 402  with NOEs to resonances LEU 394 / ALA 400 / ALA 423 / 
+and thereby assigned to pdb methyl group :     LEU 402 with expected NOEs to   LEU 394 / ALA 400 / ALA 423 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => MET 286 // MET 286 => LEU 362 // LEU 362 => ALA 423 // ALA 423 => LEU 394 // LEU 394 => LEU 402 // LEU 402
+was extened with methyl group resonance  :     ALA 400  with NOEs to resonances LEU 402 / 
+and thereby assigned to pdb methyl group :     ALA 400 with expected NOEs to   LEU 402 /  applying a cut-off distance of 5.800000000000001 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => MET 286 // MET 286 => LEU 362 // LEU 362 => ALA 423 // ALA 423 => LEU 394 // LEU 394
+was extened with methyl group resonance  :     VAL 405  with NOEs to resonances LEU 335 / LEU 362 / MET 377 / LEU 392 / LEU 394 / LEU 404 / LEU 421 / ALA 423 / 
+and thereby assigned to pdb methyl group :     VAL 405 with expected NOEs to   LEU 335 / LEU 362 / MET 377 / LEU 392 / LEU 394 / LEU 404 / LEU 421 / ALA 423 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => MET 286 // MET 286 => LEU 362 // LEU 362 => ALA 423 // ALA 423 => LEU 394 // LEU 394 => VAL 405 // VAL 405
+was extened with methyl group resonance  :     LEU 404  with NOEs to resonances VAL 380 / LEU 382 / VAL 405 / LEU 431 / 
+and thereby assigned to pdb methyl group :     LEU 404 with expected NOEs to   VAL 380 / LEU 382 / VAL 405 / LEU 431 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => MET 286 // MET 286 => LEU 362 // LEU 362 => ALA 423 // ALA 423 => LEU 394 // LEU 394 => VAL 405 // VAL 405 => LEU 404 // LEU 404
+was extened with methyl group resonance  :     LEU 382  with NOEs to resonances VAL 380 / LEU 404 / LEU 431 / 
+and thereby assigned to pdb methyl group :     LEU 382 with expected NOEs to   VAL 380 / LEU 404 / LEU 431 /  applying a cut-off distance of 6.6000000000000005 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => MET 286 // MET 286 => LEU 362 // LEU 362 => ALA 423 // ALA 423 => LEU 394 // LEU 394 => VAL 405 // VAL 405 => LEU 404 // LEU 404 => LEU 382 // LEU 382
+was extened with methyl group resonance  :     LEU 431  with NOEs to resonances LEU 382 / LEU 404 / LEU 436 / 
+and thereby assigned to pdb methyl group :     LEU 431 with expected NOEs to   LEU 382 / LEU 404 / LEU 436 /  applying a cut-off distance of 6.800000000000001 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => MET 286 // MET 286 => LEU 362 // LEU 362 => ALA 423 // ALA 423 => LEU 394 // LEU 394 => VAL 405 // VAL 405 => LEU 404 // LEU 404 => LEU 382 // LEU 382 => LEU 431 // LEU 431
+was extened with methyl group resonance  :     LEU 436  with NOEs to resonances LEU 431 / 
+and thereby assigned to pdb methyl group :     LEU 436 with expected NOEs to   LEU 431 /  applying a cut-off distance of 4.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => ILE 333 // ILE 333 => ALA 379 // ALA 379 => ILE 314 // ILE 314 => LEU 259 // LEU 259
+was extened with methyl group resonance  :     VAL 327  with NOEs to resonances LEU 259 / ILE 314 / ALA 379 / 
+and thereby assigned to pdb methyl group :     VAL 327 with expected NOEs to   LEU 259 / ILE 314 / ALA 379 /  applying a cut-off distance of 6.4 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => MET 286 // MET 286 => LEU 362 // LEU 362 => ALA 423 // ALA 423 => LEU 394 // LEU 394 => VAL 405 // VAL 405 => LEU 404 // LEU 404 => LEU 382 // LEU 382
+was extened with methyl group resonance  :     VAL 380  with NOEs to resonances LEU 251 / ALA 379 / LEU 382 / LEU 392 / LEU 404 / 
+and thereby assigned to pdb methyl group :     VAL 380 with expected NOEs to   LEU 251 / ALA 379 / LEU 382 / LEU 392 / LEU 404 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 377 // MET 377 => LEU 335 // LEU 335 => ILE 333 // ILE 333 => ALA 379 // ALA 379 => ILE 314 // ILE 314 => LEU 259 // LEU 259 => LEU 251 // LEU 251
+was extened with methyl group resonance  :     VAL 390  with NOEs to resonances LEU 251 / LEU 259 / ALA 379 / LEU 392 / 
+and thereby assigned to pdb methyl group :     VAL 390 with expected NOEs to   LEU 251 / LEU 259 / ALA 379 / LEU 392 /  applying a cut-off distance of 6.800000000000001 Amgstroem  
+
+amount of assignments in cluster                  : 25
+amount of perfectly matching building block pairs : 25
+Cluster Score  :      228.0 of 228.0
+
+cluster       :      1
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     LEU 132  with NOEs to resonances LEU 93 / VAL 95 / ILE 113 / LEU 137 / LEU 164 / 
+and thereby assigned to pdb methyl group :     LEU 132 with expected NOEs to   LEU 93 / VAL 95 / ILE 113 / LEU 137 / LEU 164 /  applying a cut-off distance of 5.800000000000001 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => LEU 132 // LEU 132
+was extened with methyl group resonance  :     LEU 137  with NOEs to resonances LEU 93 / LEU 132 / LEU 164 / VAL 169 / ILE 171 / ILE 173 / LEU 183 / ILE 185 / 
+and thereby assigned to pdb methyl group :     LEU 137 with expected NOEs to   LEU 93 / LEU 132 / LEU 164 / VAL 169 / ILE 171 / ILE 173 / LEU 183 / ILE 185 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => LEU 132 // LEU 132 => LEU 137 // LEU 137
+was extened with methyl group resonance  :     VAL 169  with NOEs to resonances LEU 93 / LEU 137 / LEU 164 / ILE 171 / ILE 185 / 
+and thereby assigned to pdb methyl group :     VAL 169 with expected NOEs to   LEU 93 / LEU 137 / LEU 164 / ILE 171 / ILE 185 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => LEU 132 // LEU 132 => LEU 137 // LEU 137 => VAL 169 // VAL 169
+was extened with methyl group resonance  :     ILE 171  with NOEs to resonances LEU 93 / LEU 137 / LEU 164 / VAL 169 / ILE 173 / LEU 183 / ILE 185 / 
+and thereby assigned to pdb methyl group :     ILE 171 with expected NOEs to   LEU 93 / LEU 137 / LEU 164 / VAL 169 / ILE 173 / LEU 183 / ILE 185 /  applying a cut-off distance of 6.800000000000001 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => LEU 132 // LEU 132 => LEU 137 // LEU 137 => VAL 169 // VAL 169 => ILE 171 // ILE 171
+was extened with methyl group resonance  :     ILE 173  with NOEs to resonances VAL 89 / VAL 130 / LEU 137 / ILE 171 / LEU 183 / 
+and thereby assigned to pdb methyl group :     ILE 173 with expected NOEs to   VAL 89 / VAL 130 / LEU 137 / ILE 171 / LEU 183 /  applying a cut-off distance of 6.800000000000001 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => LEU 132 // LEU 132 => LEU 137 // LEU 137 => VAL 169 // VAL 169 => ILE 171 // ILE 171
+was extened with methyl group resonance  :     LEU 93  with NOEs to resonances VAL 95 / ILE 113 / LEU 132 / LEU 137 / LEU 164 / VAL 169 / ILE 171 / 
+and thereby assigned to pdb methyl group :     LEU 93 with expected NOEs to   VAL 95 / ILE 113 / LEU 132 / LEU 137 / LEU 164 / VAL 169 / ILE 171 /  applying a cut-off distance of 5.4 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => LEU 132 // LEU 132 => LEU 137 // LEU 137 => VAL 169 // VAL 169 => ILE 171 // ILE 171 => LEU 93 // LEU 93
+was extened with methyl group resonance  :     LEU 164  with NOEs to resonances LEU 93 / VAL 95 / LEU 132 / LEU 137 / VAL 169 / ILE 171 / ILE 185 / 
+and thereby assigned to pdb methyl group :     LEU 164 with expected NOEs to   LEU 93 / VAL 95 / LEU 132 / LEU 137 / VAL 169 / ILE 171 / ILE 185 /  applying a cut-off distance of 6.2 Amgstroem  
+
+amount of assignments in cluster                  : 7
+amount of perfectly matching building block pairs : 7
+Cluster Score  :      88.0 of 88.0
+
+cluster       :      2
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     ALA 49  with NOEs to resonances ILE 33 / LEU 51 / ILE 60 / LEU 62 / VAL 70 / 
+and thereby assigned to pdb methyl group :     ALA 49 with expected NOEs to   ILE 33 / LEU 51 / ILE 60 / LEU 62 / VAL 70 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ALA 49 // ALA 49
+was extened with methyl group resonance  :     ILE 33  with NOEs to resonances ILE 28 / ALA 49 / LEU 51 / ILE 60 / VAL 70 / 
+and thereby assigned to pdb methyl group :     ILE 33 with expected NOEs to   ILE 28 / ALA 49 / LEU 51 / ILE 60 / VAL 70 /  applying a cut-off distance of 5.6000000000000005 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ALA 49 // ALA 49
+was extened with methyl group resonance  :     LEU 62  with NOEs to resonances ALA 49 / ILE 60 / VAL 70 / LEU 209 / VAL 221 / ILE 223 / 
+and thereby assigned to pdb methyl group :     LEU 62 with expected NOEs to   ALA 49 / ILE 60 / VAL 70 / LEU 209 / VAL 221 / ILE 223 /  applying a cut-off distance of 6.6000000000000005 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ALA 49 // ALA 49 => LEU 62 // LEU 62
+was extened with methyl group resonance  :     LEU 209  with NOEs to resonances ILE 60 / LEU 62 / VAL 70 / VAL 72 / ILE 114 / ILE 223 / 
+and thereby assigned to pdb methyl group :     LEU 209 with expected NOEs to   ILE 60 / LEU 62 / VAL 70 / VAL 72 / ILE 114 / ILE 223 /  applying a cut-off distance of 6.4 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ALA 49 // ALA 49 => LEU 62 // LEU 62 => LEU 209 // LEU 209
+was extened with methyl group resonance  :     ILE 223  with NOEs to resonances ILE 60 / LEU 62 / ILE 113 / ILE 114 / LEU 209 / VAL 221 / 
+and thereby assigned to pdb methyl group :     ILE 223 with expected NOEs to   ILE 60 / LEU 62 / ILE 113 / ILE 114 / LEU 209 / VAL 221 /  applying a cut-off distance of 6.2 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ALA 49 // ALA 49 => ILE 33 // ILE 33
+was extened with methyl group resonance  :     ILE 28  with NOEs to resonances ILE 33 / LEU 51 / ALA 59 / ILE 60 / 
+and thereby assigned to pdb methyl group :     ILE 28 with expected NOEs to   ILE 33 / LEU 51 / ALA 59 / ILE 60 /  applying a cut-off distance of 5.4 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ALA 49 // ALA 49 => ILE 33 // ILE 33 => ILE 28 // ILE 28
+was extened with methyl group resonance  :     ALA 59  with NOEs to resonances ILE 28 / LEU 51 / VAL 52 / ILE 60 / 
+and thereby assigned to pdb methyl group :     ALA 59 with expected NOEs to   ILE 28 / LEU 51 / VAL 52 / ILE 60 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ALA 49 // ALA 49 => ILE 33 // ILE 33 => ILE 28 // ILE 28 => ALA 59 // ALA 59
+was extened with methyl group resonance  :     VAL 52  with NOEs to resonances ALA 59 / 
+and thereby assigned to pdb methyl group :     VAL 52 with expected NOEs to   ALA 59 /  applying a cut-off distance of 4.6000000000000005 Amgstroem  
+
+amount of assignments in cluster                  : 8
+amount of perfectly matching building block pairs : 8
+Cluster Score  :      74.0 of 74.0
+
+cluster       :      3
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     ILE 78  with NOEs to resonances ILE 23 / LEU 24 / ALA 75 / ILE 207 / ILE 228 / 
+and thereby assigned to pdb methyl group :     ILE 78 with expected NOEs to   ILE 23 / LEU 24 / ALA 75 / ILE 207 / ILE 228 /  applying a cut-off distance of 6.4 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ILE 78 // ILE 78
+was extened with methyl group resonance  :     ILE 228  with NOEs to resonances ILE 23 / LEU 24 / ILE 78 / VAL 89 / ILE 207 / 
+and thereby assigned to pdb methyl group :     ILE 228 with expected NOEs to   ILE 23 / LEU 24 / ILE 78 / VAL 89 / ILE 207 /  applying a cut-off distance of 6.4 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ILE 78 // ILE 78 => ILE 228 // ILE 228
+was extened with methyl group resonance  :     ILE 207  with NOEs to resonances LEU 24 / VAL 72 / ILE 78 / ILE 228 / 
+and thereby assigned to pdb methyl group :     ILE 207 with expected NOEs to   LEU 24 / VAL 72 / ILE 78 / ILE 228 /  applying a cut-off distance of 6.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ILE 78 // ILE 78
+was extened with methyl group resonance  :     ALA 75  with NOEs to resonances ILE 78 / 
+and thereby assigned to pdb methyl group :     ALA 75 with expected NOEs to   ILE 78 /  applying a cut-off distance of 5.4 Amgstroem  
+
+amount of assignments in cluster                  : 4
+amount of perfectly matching building block pairs : 4
+Cluster Score  :      30.0 of 30.0
+
+cluster       :      4
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     ALA 181  with NOEs to resonances LEU 141 / ILE 151 / ALA 193 / ILE 195 / 
+and thereby assigned to pdb methyl group :     ALA 181 with expected NOEs to   LEU 141 / ILE 151 / ALA 193 / ILE 195 /  applying a cut-off distance of 5.800000000000001 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ALA 181 // ALA 181
+was extened with methyl group resonance  :     ILE 195  with NOEs to resonances LEU 141 / ALA 181 / 
+and thereby assigned to pdb methyl group :     ILE 195 with expected NOEs to   LEU 141 / ALA 181 /  applying a cut-off distance of 4.6000000000000005 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ALA 181 // ALA 181 => ILE 195 // ILE 195
+was extened with methyl group resonance  :     LEU 141  with NOEs to resonances ALA 181 / ILE 195 / LEU 198 / ILE 201 / 
+and thereby assigned to pdb methyl group :     LEU 141 with expected NOEs to   ALA 181 / ILE 195 / LEU 198 / ILE 201 /  applying a cut-off distance of 6.2 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ALA 181 // ALA 181 => ILE 195 // ILE 195 => LEU 141 // LEU 141
+was extened with methyl group resonance  :     LEU 198  with NOEs to resonances LEU 141 / ILE 201 / 
+and thereby assigned to pdb methyl group :     LEU 198 with expected NOEs to   LEU 141 / ILE 201 /  applying a cut-off distance of 6.800000000000001 Amgstroem  
+
+amount of assignments in cluster                  : 4
+amount of perfectly matching building block pairs : 4
+Cluster Score  :      24.0 of 24.0
+
+cluster       :      5
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     VAL 43  with NOEs to resonances LEU 26 / ILE 44 / VAL 72 / 
+and thereby assigned to pdb methyl group :     VAL 43 with expected NOEs to   LEU 26 / ILE 44 / VAL 72 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => VAL 43 // VAL 43
+was extened with methyl group resonance  :     LEU 26  with NOEs to resonances LEU 24 / VAL 43 / ILE 60 / VAL 72 / 
+and thereby assigned to pdb methyl group :     LEU 26 with expected NOEs to   LEU 24 / VAL 43 / ILE 60 / VAL 72 /  applying a cut-off distance of 6.6000000000000005 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => VAL 43 // VAL 43
+was extened with methyl group resonance  :     ILE 44  with NOEs to resonances VAL 43 / 
+and thereby assigned to pdb methyl group :     ILE 44 with expected NOEs to   VAL 43 /  applying a cut-off distance of 7.0 Amgstroem  
+
+amount of assignments in cluster                  : 3
+amount of perfectly matching building block pairs : 3
+Cluster Score  :      16.0 of 16.0
+
+cluster       :      6
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     ILE 268  with NOEs to resonances ALA 291 / LEU 306 / VAL 443 / 
+and thereby assigned to pdb methyl group :     ILE 268 with expected NOEs to   ALA 291 / LEU 306 / VAL 443 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ILE 268 // ILE 268
+was extened with methyl group resonance  :     ALA 291  with NOEs to resonances ILE 268 / 
+and thereby assigned to pdb methyl group :     ALA 291 with expected NOEs to   ILE 268 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ILE 268 // ILE 268
+was extened with methyl group resonance  :     VAL 443  with NOEs to resonances ILE 268 / LEU 306 / 
+and thereby assigned to pdb methyl group :     VAL 443 with expected NOEs to   ILE 268 / LEU 306 /  applying a cut-off distance of 5.4 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ILE 268 // ILE 268 => VAL 443 // VAL 443
+was extened with methyl group resonance  :     LEU 306  with NOEs to resonances ILE 268 / VAL 443 / 
+and thereby assigned to pdb methyl group :     LEU 306 with expected NOEs to   ILE 268 / VAL 443 /  applying a cut-off distance of 5.4 Amgstroem  
+
+amount of assignments in cluster                  : 4
+amount of perfectly matching building block pairs : 4
+Cluster Score  :      16.0 of 16.0
+
+cluster       :      7
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     ALA 100  with NOEs to resonances LEU 299 / ILE 301 / 
+and thereby assigned to pdb methyl group :     ALA 100 with expected NOEs to   LEU 299 / ILE 301 /  applying a cut-off distance of 6.4 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ALA 100 // ALA 100
+was extened with methyl group resonance  :     ILE 301  with NOEs to resonances ALA 100 / LEU 103 / LEU 299 / 
+and thereby assigned to pdb methyl group :     ILE 301 with expected NOEs to   ALA 100 / LEU 103 / LEU 299 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ALA 100 // ALA 100 => ILE 301 // ILE 301
+was extened with methyl group resonance  :     LEU 103  with NOEs to resonances VAL 98 / LEU 299 / ILE 301 / 
+and thereby assigned to pdb methyl group :     LEU 103 with expected NOEs to   VAL 98 / LEU 299 / ILE 301 /  applying a cut-off distance of 6.800000000000001 Amgstroem  
+
+amount of assignments in cluster                  : 3
+amount of perfectly matching building block pairs : 3
+Cluster Score  :      16.0 of 16.0
+
+cluster       :      8
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     ILE 361  with NOEs to resonances ALA 354 / ILE 412 / ILE 420 / 
+and thereby assigned to pdb methyl group :     ILE 361 with expected NOEs to   ALA 354 / ILE 412 / ILE 420 /  applying a cut-off distance of 6.2 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ILE 361 // ILE 361
+was extened with methyl group resonance  :     ILE 412  with NOEs to resonances ILE 361 / ILE 420 / 
+and thereby assigned to pdb methyl group :     ILE 412 with expected NOEs to   ILE 361 / ILE 420 /  applying a cut-off distance of 4.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ILE 361 // ILE 361
+was extened with methyl group resonance  :     ALA 354  with NOEs to resonances ILE 361 / 
+and thereby assigned to pdb methyl group :     ALA 354 with expected NOEs to   ILE 361 /  applying a cut-off distance of 5.800000000000001 Amgstroem  
+
+amount of assignments in cluster                  : 3
+amount of perfectly matching building block pairs : 3
+Cluster Score  :      12.0 of 12.0
+
+cluster       :      9
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     ALA 271  with NOEs to resonances VAL 270 / ILE 435 / 
+and thereby assigned to pdb methyl group :     ALA 271 with expected NOEs to   VAL 270 / ILE 435 /  applying a cut-off distance of 6.800000000000001 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ALA 271 // ALA 271
+was extened with methyl group resonance  :     VAL 270  with NOEs to resonances ALA 271 / ILE 435 / 
+and thereby assigned to pdb methyl group :     VAL 270 with expected NOEs to   ALA 271 / ILE 435 /  applying a cut-off distance of 6.800000000000001 Amgstroem  
+
+amount of assignments in cluster                  : 2
+amount of perfectly matching building block pairs : 2
+Cluster Score  :      8.0 of 8.0
+
+cluster       :      10
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     MET 190  with NOEs to resonances ILE 185 / VAL 188 / 
+and thereby assigned to pdb methyl group :     MET 190 with expected NOEs to   ILE 185 / VAL 188 /  applying a cut-off distance of 5.2 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 190 // MET 190
+was extened with methyl group resonance  :     VAL 188  with NOEs to resonances MET 190 / 
+and thereby assigned to pdb methyl group :     VAL 188 with expected NOEs to   MET 190 /  applying a cut-off distance of 5.2 Amgstroem  
+
+amount of assignments in cluster                  : 2
+amount of perfectly matching building block pairs : 2
+Cluster Score  :      6.0 of 6.0
+
+cluster       :      11
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     ALA 162  with NOEs to resonances LEU 156 / ALA 165 / 
+and thereby assigned to pdb methyl group :     ALA 162 with expected NOEs to   LEU 156 / ALA 165 /  applying a cut-off distance of 6.6000000000000005 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ALA 162 // ALA 162
+was extened with methyl group resonance  :     LEU 156  with NOEs to resonances ALA 162 / 
+and thereby assigned to pdb methyl group :     LEU 156 with expected NOEs to   ALA 162 /  applying a cut-off distance of 6.6000000000000005 Amgstroem  
+
+amount of assignments in cluster                  : 2
+amount of perfectly matching building block pairs : 2
+Cluster Score  :      6.0 of 6.0
+
+cluster       :      12
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     ALA 145  with NOEs to resonances ILE 124 / 
+and thereby assigned to pdb methyl group :     ALA 145 with expected NOEs to   ILE 124 /  applying a cut-off distance of 6.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => ALA 145 // ALA 145
+was extened with methyl group resonance  :     ILE 124  with NOEs to resonances LEU 122 / ALA 145 / 
+and thereby assigned to pdb methyl group :     ILE 124 with expected NOEs to   LEU 122 / ALA 145 /  applying a cut-off distance of 6.0 Amgstroem  
+
+amount of assignments in cluster                  : 2
+amount of perfectly matching building block pairs : 2
+Cluster Score  :      6.0 of 6.0
+
+cluster       :      13
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     MET 117  with NOEs to resonances VAL 148 / 
+and thereby assigned to pdb methyl group :     MET 117 with expected NOEs to   VAL 148 /  applying a cut-off distance of 7.0 Amgstroem  
+
+
+
+methyl walk (NMR//pdb)                   :     start => MET 117 // MET 117
+was extened with methyl group resonance  :     VAL 148  with NOEs to resonances MET 117 / 
+and thereby assigned to pdb methyl group :     VAL 148 with expected NOEs to   MET 117 /  applying a cut-off distance of 7.0 Amgstroem  
+
+amount of assignments in cluster                  : 2
+amount of perfectly matching building block pairs : 2
+Cluster Score  :      4.0 of 4.0
+
+cluster       :      14
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     VAL 8  with NOEs to resonances ILE 17 / 
+and thereby assigned to pdb methyl group :     VAL 8 with expected NOEs to   ILE 17 /  applying a cut-off distance of 6.0 Amgstroem  
+
+amount of assignments in cluster                  : 1
+amount of perfectly matching building block pairs : 1
+Cluster Score  :      2.0 of 2.0
+
+cluster       :      15
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     ILE 371  with NOEs to resonances ALA 368 / 
+and thereby assigned to pdb methyl group :     ILE 151 with expected NOEs to   ALA 181 /  applying a cut-off distance of 4.0 Amgstroem  
+
+amount of assignments in cluster                  : 1
+amount of perfectly matching building block pairs : 1
+Cluster Score  :      2.0 of 2.0
+
+cluster       :      16
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     ILE 14  with NOEs to resonances ILE 17 / 
+and thereby assigned to pdb methyl group :     ILE 14 with expected NOEs to   ILE 17 /  applying a cut-off distance of 6.6000000000000005 Amgstroem  
+
+amount of assignments in cluster                  : 1
+amount of perfectly matching building block pairs : 1
+Cluster Score  :      2.0 of 2.0
+
+cluster       :      17
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     ILE 55  with NOEs to resonances LEU 246 / 
+and thereby assigned to pdb methyl group :     ILE 55 with expected NOEs to   LEU 246 /  applying a cut-off distance of 4.4 Amgstroem  
+
+amount of assignments in cluster                  : 1
+amount of perfectly matching building block pairs : 1
+Cluster Score  :      2.0 of 2.0
+
+cluster       :      18
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     LEU 211  with NOEs to resonances VAL 221 / 
+and thereby assigned to pdb methyl group :     LEU 211 with expected NOEs to   VAL 221 /  applying a cut-off distance of 5.6000000000000005 Amgstroem  
+
+amount of assignments in cluster                  : 1
+amount of perfectly matching building block pairs : 1
+Cluster Score  :      2.0 of 2.0
+
+cluster       :      19
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     LEU 178  with NOEs to resonances LEU 4 / 
+and thereby assigned to pdb methyl group :     LEU 4 with expected NOEs to   LEU 178 /  applying a cut-off distance of 5.0 Amgstroem  
+
+amount of assignments in cluster                  : 1
+amount of perfectly matching building block pairs : 1
+Cluster Score  :      2.0 of 2.0
+
+cluster       :      20
+
+
+methyl walk (NMR//pdb)                   :     start
+was extened with methyl group resonance  :     LEU 385  with NOEs to resonances LEU 246 / 
+and thereby assigned to pdb methyl group :     LEU 18 with expected NOEs to   LEU 233 /  applying a cut-off distance of 4.2 Amgstroem  
+
+amount of assignments in cluster                  : 1
+amount of perfectly matching building block pairs : 1
+Cluster Score  :      2.0 of 2.0
+
+total amount of assignments                             : 78
+total amount of perfectly matching building block pairs: 78
+total ratio of perfectly matching building block pairs to toal assignments for MET: 4 / 4
+total ratio of perfectly matching building block pairs to toal assignments for ILE: 22 / 22
+total ratio of perfectly matching building block pairs to toal assignments for LEU: 26 / 26
+total ratio of perfectly matching building block pairs to toal assignments for VAL: 13 / 13
+total ratio of perfectly matching building block pairs to toal assignments for ALA: 13 / 13
+total ratio of perfectly matching building block pairs to toal assignments for THR: 0 / 0
