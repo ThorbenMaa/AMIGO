@@ -33,7 +33,7 @@ git clone https://github.com/ThorbenMaa/AMIGO.git
 Operate from inside the directory.
 
 ### Install dependencies
-I recommend to use [mamba](https://mamba.readthedocs.io/en/latest/installation.html) to create environments and install dependencies.
+I recommend to use [mamba](https://github.com/conda-forge/miniforge) to create environments and install dependencies.
 After setting up mamba or, alternatively, conda, set up the environment using:
 
 ```
