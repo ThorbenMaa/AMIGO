@@ -777,7 +777,7 @@ def cli (pdb_file, noe_file, additional_measure_file, additional_xtal_file, prea
             outfile.write('\n')
             outfile.write('\nmethyl walk (NMR//pdb)                   :     ' + str(methyl_walk_array_all_solutions[i][j])+ '\n')
             
-            outfile.write('was extened with methyl group resonance  :     ' +str(assignment_pair_array_all_solutions[i][j][0][0][0][0])+' '+str(assignment_pair_array_all_solutions[i][j][0][0][0][1]) + '  with NOEs to resonances ')
+            outfile.write('was extended with methyl group resonance  :     ' +str(assignment_pair_array_all_solutions[i][j][0][0][0][0])+' '+str(assignment_pair_array_all_solutions[i][j][0][0][0][1]) + '  with NOEs to resonances ')
     
             
             for k in range (0, len(assignment_pair_array_all_solutions[i][j][0][0]), 1):    
@@ -831,12 +831,12 @@ def cli (pdb_file, noe_file, additional_measure_file, additional_xtal_file, prea
 
     outfile.write('\ntotal amount of assignments                             : '+str( total_amount_ass))
     outfile.write('\ntotal amount of perfectly matching building block pairs: '+str( total_amount_perfect))
-    outfile.write('\ntotal ratio of perfectly matching building block pairs to toal assignments for MET: '+str( total_amount_perfect_m) + " / "+ str(total_amount_ass_m))
-    outfile.write('\ntotal ratio of perfectly matching building block pairs to toal assignments for ILE: '+str( total_amount_perfect_i) + " / "+ str(total_amount_ass_i))
-    outfile.write('\ntotal ratio of perfectly matching building block pairs to toal assignments for LEU: '+str( total_amount_perfect_l) + " / "+ str(total_amount_ass_l))
-    outfile.write('\ntotal ratio of perfectly matching building block pairs to toal assignments for VAL: '+str( total_amount_perfect_v) + " / "+ str(total_amount_ass_v))
-    outfile.write('\ntotal ratio of perfectly matching building block pairs to toal assignments for ALA: '+str( total_amount_perfect_a) + " / "+ str(total_amount_ass_a))
-    outfile.write('\ntotal ratio of perfectly matching building block pairs to toal assignments for THR: '+str( total_amount_perfect_t) + " / "+ str(total_amount_ass_t))
+    outfile.write('\ntotal ratio of perfectly matching building block pairs to total assignments for MET: '+str( total_amount_perfect_m) + " / "+ str(total_amount_ass_m))
+    outfile.write('\ntotal ratio of perfectly matching building block pairs to total assignments for ILE: '+str( total_amount_perfect_i) + " / "+ str(total_amount_ass_i))
+    outfile.write('\ntotal ratio of perfectly matching building block pairs to total assignments for LEU: '+str( total_amount_perfect_l) + " / "+ str(total_amount_ass_l))
+    outfile.write('\ntotal ratio of perfectly matching building block pairs to total assignments for VAL: '+str( total_amount_perfect_v) + " / "+ str(total_amount_ass_v))
+    outfile.write('\ntotal ratio of perfectly matching building block pairs to total assignments for ALA: '+str( total_amount_perfect_a) + " / "+ str(total_amount_ass_a))
+    outfile.write('\ntotal ratio of perfectly matching building block pairs to total assignments for THR: '+str( total_amount_perfect_t) + " / "+ str(total_amount_ass_t))
     outfile.close()
 
     #creation of interactive surfaces showing the final pdb and NMR based graphs
