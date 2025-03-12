@@ -24,7 +24,7 @@ done
 # PCS data
 cd PCS_data_sets
 
-paths=("GTB/8-5" "LmUGP_with_PCS/8-5" "MNV_Pdomain_with_PCS/8-5")
+paths=("GTB/8-5" "LmUGP_with_PCS/8-5" "MNV_Pdomain_with_PCS/8-5" "GTB_0_1_step_size_no_assignment_restrictions_only_loops/8-5" "GTB_assign_only_loops_0_1_step_size_no_PCSs/7-5")
 
 for path in "${paths[@]}"
 do
