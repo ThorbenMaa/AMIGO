@@ -10,6 +10,7 @@ paths=("./HuNoV_Pdomain/p=1/9" \
         "./ubiquitin/p=1/7" \
         "./a7a7/p=1/10" \
         "./LmUGP_apo_without_PCS/p=1/7-5" \
+        "./LmUGP_apo_without_PCS/p=1_with_preassignments/7-5" \
         "./LmUGP_without_PCS/p=1/7-5" \
         "./GTB_without_PCS/p=1/8-5" \
         "./MNV_Pdomain_without_PCS/p=1/8" \
